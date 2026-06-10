@@ -1,0 +1,61 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u572000472",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"button" : [ 0.0 ],
+					"slider" : [ 70 ],
+					"slider[1]" : [ 58 ],
+					"slider[2]" : [ 95 ],
+					"slider[3]" : [ 25 ],
+					"slider[4]" : [ 100 ],
+					"slider[5]" : [ 88 ],
+					"slider[6]" : [ 85 ],
+					"slider[7]" : [ 79 ],
+					"slider[8]" : [  ],
+					"slider[9]" : [  ],
+					"slider[10]" : [  ],
+					"slider[11]" : [  ],
+					"slider[12]" : [  ],
+					"slider[13]" : [  ],
+					"slider[14]" : [  ],
+					"slider[15]" : [  ],
+					"slider[16]" : [  ],
+					"slider[17]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"button" : [ 0.0 ],
+					"slider" : [ 17 ],
+					"slider[1]" : [ 53 ],
+					"slider[2]" : [ 121 ],
+					"slider[3]" : [ 23 ],
+					"slider[4]" : [ 3 ],
+					"slider[5]" : [ 26 ],
+					"slider[6]" : [ 17 ],
+					"slider[7]" : [ 60 ],
+					"slider[8]" : [  ],
+					"slider[9]" : [  ],
+					"slider[10]" : [  ],
+					"slider[11]" : [  ],
+					"slider[12]" : [  ],
+					"slider[13]" : [  ],
+					"slider[14]" : [  ],
+					"slider[15]" : [  ],
+					"slider[16]" : [  ],
+					"slider[17]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

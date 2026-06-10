@@ -1,0 +1,141 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u474001144",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"velocity" : [ 33 ],
+					"chances" : [ 76 ],
+					"scatter" : [ 60 ],
+					"delFreq" : [ 0.29 ],
+					"feedback" : [ 0.51 ],
+					"delRangueLow" : [ 350.0 ],
+					"delRangueHigh" : [ 500.0 ],
+					"delSah" : [ 84.0 ],
+					"delMovement" : [ 500.0 ],
+					"delLevel" : [ 0.99 ],
+					"Gain" : [ 1.0 ],
+					"InFilterFreq" : [ 2176.213668717623477 ],
+					"InFilterGain" : [ 1.059744797340041 ],
+					"InFilterQ" : [ 1.286907953856665 ],
+					"delFilterFreq" : [ 565.194400469548668 ],
+					"delFilterGain" : [ 1.179722927611294 ],
+					"delFilterQ" : [ 1.435119296430851 ],
+					"OutFilterFreq" : [ 2176.213668717623477 ],
+					"OutFilterGain" : [ 0.918511188682276 ],
+					"OutFilterQ" : [ 0.973594955020021 ],
+					"outCverbTime" : [ 79.0 ],
+					"delCverbTime" : [ 859.0 ],
+					"outCverbWet" : [ 0.36 ],
+					"delCverbWet" : [ 0.33 ],
+					"outCverbDry" : [ 0.99 ],
+					"delCverbDry" : [ 0.984 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"velocity" : [ 58 ],
+					"chances" : [ 13 ],
+					"scatter" : [ 60 ],
+					"delFreq" : [ 0.29 ],
+					"feedback" : [ 0.93 ],
+					"delRangueLow" : [ 10.0 ],
+					"delRangueHigh" : [ 79.0 ],
+					"delSah" : [ 67.700000000000003 ],
+					"delMovement" : [ 1030.0 ],
+					"delLevel" : [ 0.99 ],
+					"Gain" : [ 1.36 ],
+					"InFilterFreq" : [ 842.448823806634437 ],
+					"InFilterGain" : [ 0.986608086934272 ],
+					"InFilterQ" : [ 2.163350775202726 ],
+					"delFilterFreq" : [ 1637.239218130546078 ],
+					"delFilterGain" : [ 0.918511188682276 ],
+					"delFilterQ" : [ 1.435119296430851 ],
+					"OutFilterFreq" : [ 4646.600173641279071 ],
+					"OutFilterGain" : [ 0.855106811785704 ],
+					"OutFilterQ" : [ 1.524020085216542 ],
+					"outCverbTime" : [ 35.0 ],
+					"delCverbTime" : [ 859.0 ],
+					"outCverbWet" : [ 0.64 ],
+					"delCverbWet" : [ 0.08 ],
+					"outCverbDry" : [ 0.99 ],
+					"delCverbDry" : [ 0.984 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"velocity" : [ 34 ],
+					"chances" : [ 3 ],
+					"scatter" : [ 85 ],
+					"delFreq" : [ 0.234 ],
+					"feedback" : [ 0.951 ],
+					"delRangueLow" : [ 62.0 ],
+					"delRangueHigh" : [ 197.0 ],
+					"delSah" : [ 67.700000000000003 ],
+					"delMovement" : [ 1030.0 ],
+					"delLevel" : [ 0.99 ],
+					"Gain" : [ 1.61 ],
+					"InFilterFreq" : [ 1078.364717383927882 ],
+					"InFilterGain" : [ 0.855106811785704 ],
+					"InFilterQ" : [ 1.985256948776313 ],
+					"delFilterFreq" : [ 3240.962146709141052 ],
+					"delFilterGain" : [ 0.796071597072021 ],
+					"delFilterQ" : [ 1.435119296430851 ],
+					"OutFilterFreq" : [ 2732.431154670182877 ],
+					"OutFilterGain" : [ 0.886243186009977 ],
+					"OutFilterQ" : [ 1.524020085216542 ],
+					"outCverbTime" : [ 1783.0 ],
+					"delCverbTime" : [ 18.0 ],
+					"outCverbWet" : [ 0.05 ],
+					"delCverbWet" : [ 0.33 ],
+					"outCverbDry" : [ 0.99 ],
+					"delCverbDry" : [ 0.984 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"velocity" : [ 34 ],
+					"chances" : [ 3 ],
+					"scatter" : [ 85 ],
+					"delFreq" : [ 0.234 ],
+					"feedback" : [ 0.951 ],
+					"delRangueLow" : [ 336.0 ],
+					"delRangueHigh" : [ 439.0 ],
+					"delSah" : [ 23.949999999999999 ],
+					"delMovement" : [ 223.0 ],
+					"delLevel" : [ 0.93 ],
+					"Gain" : [ 1.61 ],
+					"InFilterFreq" : [ 10904.781770195233548 ],
+					"InFilterGain" : [ 1.059744797340041 ],
+					"InFilterQ" : [ 0.422210929272329 ],
+					"delFilterFreq" : [ 401.257230283530419 ],
+					"delFilterGain" : [ 0.715058061695455 ],
+					"delFilterQ" : [ 1.435119296430851 ],
+					"OutFilterFreq" : [ 1766.334855464421253 ],
+					"OutFilterGain" : [ 0.855106811785704 ],
+					"OutFilterQ" : [ 1.524020085216542 ],
+					"outCverbTime" : [ 92.0 ],
+					"delCverbTime" : [ 6312.0 ],
+					"outCverbWet" : [ 0.04 ],
+					"delCverbWet" : [ 0.08 ],
+					"outCverbDry" : [ 0.99 ],
+					"delCverbDry" : [ 0.984 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
