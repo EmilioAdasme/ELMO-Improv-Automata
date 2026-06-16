@@ -10,17 +10,28 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1536.0, 921.0 ],
+		"rect" : [ 1954.0, 77.0, 1298.0, 609.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 254.0, 943.0, 147.0, 22.0 ],
+					"text" : "s currentSoundBankIndex"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-110",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 911.0, 248.0, 20.0 ],
-					"text" : "Current sound Index"
+					"patching_rect" : [ 275.0, 887.0, 248.0, 20.0 ],
+					"text" : "Current sound bank Index"
 				}
 
 			}
@@ -67,13 +78,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 974.0, 969.0, 178.0, 22.0 ],
-					"text" : "set atencion.4"
+					"text" : "set atencion.2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "atencion.4",
+					"buffername" : "atencion.2",
 					"id" : "obj-102",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -418,7 +429,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 610.0, 120.0, 452.0, 117.0 ],
-					"presentation_linecount" : 8,
 					"text" : "UPDATES\n-Aumento de 8 a 16 bancos\n-Cambio de number~+change a edge~\n-Cambio en indexación del temp-rec en el polybuffer: ahora al iniciar el patcher se crean 16 buffers. El counter oscila entre 1 y 16\n-Added Fetch system: ordena los buffers de más nuevo a más antiguo. el 1 es el más nuevo, el 16 el más antiguo\n-Eliminación de delays"
 				}
 
@@ -518,7 +528,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 477.0, 745.0, 117.0, 22.0 ],
-					"text" : "crop 0 725"
+					"text" : "crop 0 730"
 				}
 
 			}
@@ -578,7 +588,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.0, 971.0, 147.0, 22.0 ],
-					"text" : "send 5 duplicate temp-rec"
+					"text" : "send 2 duplicate temp-rec"
 				}
 
 			}
@@ -1136,6 +1146,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 3,
+					"source" : [ "obj-171", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"order" : 1,
 					"source" : [ "obj-171", 0 ]
@@ -1486,7 +1504,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pdm.gatedetect.gendsp",
-				"bootpath" : "~/Documents/Composición/Obras/Improv-Automata/Input buffer 20-05-2026",
+				"bootpath" : "~/Documents/Composición/Obras/Improv-Automata/Input buffer 16-06-2026",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
