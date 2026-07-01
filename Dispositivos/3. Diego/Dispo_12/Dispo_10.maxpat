@@ -10,29 +10,91 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -168.0, 133.0, 1127.0, 786.0 ],
+		"rect" : [ 34.0, 77.0, 1127.0, 802.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-34",
+					"id" : "obj-35",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 652.0, 151.0, 45.0, 22.0 ],
+					"patching_rect" : [ 917.0, 248.0, 89.0, 22.0 ],
+					"text" : "storagewindow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-33",
+					"maxclass" : "flonum",
+					"maximum" : 4.0,
+					"minimum" : 1.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 586.0, 234.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 828.0, 231.0, 45.0, 22.0 ],
+					"text" : "store 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 774.0, 231.0, 45.0, 22.0 ],
+					"text" : "store 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 720.0, 231.0, 45.0, 22.0 ],
+					"text" : "store 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 669.0, 231.0, 45.0, 22.0 ],
 					"text" : "store 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "u297003894.json",
-					"id" : "obj-31",
+					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 667.0, 204.0, 153.0, 22.0 ],
+					"patching_rect" : [ 644.0, 283.0, 153.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 134, 483, 496 ],
 						"parameter_enable" : 0,
@@ -41,28 +103,29 @@
 					}
 ,
 					"text" : "pattrstorage @savemode 2",
-					"varname" : "u297003894"
+					"varname" : "u580002087"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-30",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 133.0, 200.0, 125.0, 22.0 ],
+					"patching_rect" : [ 635.0, 385.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 450.0 ],
-						"number[1]" : [ 28.949999999999999 ],
-						"number[2]" : [ 248.0 ],
-						"number[3]" : [ 756.0 ],
+						"live.gain~" : [ 0.0 ],
+						"number" : [ 119.0 ],
+						"number[1]" : [ 693.0 ],
+						"number[2]" : [ 22.0 ],
+						"number[3]" : [ 419.0 ],
 						"toggle" : [ 1 ]
 					}
 ,
-					"text" : "autopattr @autoname",
-					"varname" : "ksSynth"
+					"text" : "autopattr @autoname 1",
+					"varname" : "u526002031"
 				}
 
 			}
@@ -245,7 +308,8 @@
 						}
 
 					}
-
+,
+					"varname" : "live.gain~"
 				}
 
 			}
@@ -598,6 +662,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -612,48 +690,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"order" : 4,
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 3,
-					"source" : [ "obj-30", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 2,
-					"source" : [ "obj-30", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"order" : 0,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-34", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -762,14 +821,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ksSynth.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/Dispositivos/Diego/Dispo_10",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/Dispositivos/3. Diego/Dispo_12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "u297003894.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/Dispositivos/Diego/Dispo_10",
+				"name" : "u580002087.json",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/Dispositivos/3. Diego/Dispo_12",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
