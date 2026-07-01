@@ -1,0 +1,19 @@
+{
+	"pattrstorage" : 	{
+		"name" : "sinte",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"live.dial" : [ 113.000000000000014 ],
+					"number" : [ 2601 ],
+					"number[1]" : [ 15 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
