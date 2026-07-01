@@ -14,6 +14,55 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-8",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 434.0, 704.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 353.0, 730.0, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 322.0, 730.0, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 853.0, 203.0, 89.0, 22.0 ],
+					"text" : "storagewindow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -90,9 +139,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 107.0, 1000.0, 780.0 ],
+						"rect" : [ 783.0, 186.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-46",
@@ -241,7 +289,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 395.0, 50.0, 22.0 ],
-													"text" : "0.4 0.1"
+													"text" : "0.9 1.6"
 												}
 
 											}
@@ -751,7 +799,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 107.0, 1000.0, 780.0 ],
+						"rect" : [ 501.0, 93.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -804,6 +852,7 @@
 							}
 , 							{
 								"box" : 								{
+									"automatic" : 1,
 									"bufsize" : 200,
 									"id" : "obj-75",
 									"maxclass" : "scope~",
@@ -928,7 +977,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 111.0, 1000.0, 780.0 ],
+						"rect" : [ 751.0, 154.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1731,7 +1780,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 278.0, 132.0, 95.0, 22.0 ],
 					"restore" : 					{
-						"live.dial" : [ 78.000000000000128 ],
+						"live.dial" : [ 24.000000000000156 ],
 						"number" : [ 1639 ],
 						"number[1]" : [ 2056 ]
 					}
@@ -1779,7 +1828,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 111.0, 1000.0, 780.0 ],
+						"rect" : [ 562.0, 181.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -2378,7 +2427,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 322.0, 829.0, 44.0, 22.0 ],
+					"patching_rect" : [ 317.0, 948.0, 44.0, 22.0 ],
 					"text" : "limi~ 2"
 				}
 
@@ -2392,7 +2441,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 322.0, 665.0, 50.0, 133.0 ],
+					"patching_rect" : [ 317.0, 784.0, 50.0, 133.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -2456,7 +2505,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 864.0, 45.0, 45.0 ]
+					"patching_rect" : [ 316.0, 983.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -2469,17 +2518,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 278.0, 333.0, 47.0, 22.0 ],
 					"text" : "*~ 0.55"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 951.0, 322.0, 150.0, 20.0 ],
-					"text" : "876"
 				}
 
 			}
@@ -2529,6 +2567,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 651.0, 149.0, 858.0, 904.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2538,7 +2577,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 342.0, 72.0, 30.0, 30.0 ]
+									"patching_rect" : [ 342.0, 82.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -2598,7 +2637,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "tapconnect" ],
-									"patching_rect" : [ 268.0, 212.0, 72.0, 22.0 ],
+									"patching_rect" : [ 265.0, 212.0, 72.0, 22.0 ],
 									"text" : "tapin~ 2400"
 								}
 
@@ -2847,7 +2886,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1679.0, 1546.0, 64.0, 22.0 ],
-					"text" : "653"
+					"text" : "973"
 				}
 
 			}
@@ -2859,7 +2898,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1620.0, 1521.0, 73.0, 22.0 ],
-					"text" : "653."
+					"text" : "973."
 				}
 
 			}
@@ -2949,9 +2988,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 331.5, 642.0, 331.5, 642.0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -3025,7 +3071,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 1 ],
+					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 362.5, 642.0, 362.5, 642.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
@@ -3042,7 +3088,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
-					"midpoints" : [ 339.25, 816.0, 356.5, 816.0 ],
+					"midpoints" : [ 334.25, 935.0, 351.5, 935.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -3050,15 +3096,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 331.5, 801.0, 331.5, 801.0 ],
+					"midpoints" : [ 326.5, 920.0, 326.5, 920.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"midpoints" : [ 356.5, 852.0, 356.5, 852.0 ],
+					"midpoints" : [ 351.5, 971.0, 351.5, 971.0 ],
 					"source" : [ "obj-41", 1 ]
 				}
 
@@ -3066,7 +3119,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 331.5, 852.0, 330.5, 852.0 ],
+					"midpoints" : [ 326.5, 971.0, 325.5, 971.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -3126,6 +3179,13 @@
 					"destination" : [ "obj-50", 0 ],
 					"midpoints" : [ 1665.5, 1197.0, 1665.5, 1197.0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -3306,6 +3366,22 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-15" : [ "live.dial", "live.dial", 0 ],
@@ -3325,13 +3401,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sinte.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/Dispositivos/2. Cata/Dispo_8",
+				"bootpath" : "~/Documents/Composición/Obras/Improv-Automata/Dispositivos/2. Cata/Dispo_8",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
