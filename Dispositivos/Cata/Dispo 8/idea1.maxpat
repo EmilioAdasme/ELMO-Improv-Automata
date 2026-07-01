@@ -1739,9 +1739,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 646.0, 284.0, 95.0, 22.0 ],
 					"restore" : 					{
-						"live.dial" : [ 11.200000000000125 ],
-						"number" : [ 3090 ],
-						"number[1]" : [ 665 ]
+						"live.dial" : [ 113.000000000000014 ],
+						"number" : [ 2601 ],
+						"number[1]" : [ 15 ]
 					}
 ,
 					"text" : "autopattr sinte 1",
@@ -1751,21 +1751,20 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "idea 1.json",
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 646.0, 220.0, 111.0, 22.0 ],
+					"patching_rect" : [ 646.0, 220.0, 192.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 164, 454, 292 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage sinte 1",
+					"text" : "pattrstorage sinte 1 @savemode 2",
 					"varname" : "sinte"
 				}
 
@@ -2348,7 +2347,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 239.0, 308.0, 41.0, 48.0 ],
+					"patching_rect" : [ 227.0, 308.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial",
@@ -2856,7 +2855,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1679.0, 1546.0, 64.0, 22.0 ],
-					"text" : "988"
+					"text" : "653"
 				}
 
 			}
@@ -2868,7 +2867,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1620.0, 1521.0, 73.0, 22.0 ],
-					"text" : "988."
+					"text" : "653."
 				}
 
 			}
@@ -3241,7 +3240,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -3250,6 +3249,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"order" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"order" : 1,
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -3271,16 +3278,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "idea 1.json",
-				"bootpath" : "~/Documents/Improv-Automata/Dispositivos/Dispo 8",
-				"patcherrelativepath" : ".",
+				"name" : "pan2.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pan2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 9/Examples/spatialization/panning/lib",
+				"name" : "sinte.json",
+				"bootpath" : "~/Documents/Improv-Automata/Dispositivos/Cata/Dispo 8",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
