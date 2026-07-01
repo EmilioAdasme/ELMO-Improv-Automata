@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"live.gain~" : [  ]
+					"number" : [ 494.0 ]
 				}
 
 			}
@@ -13,7 +13,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"live.gain~" : [  ]
+					"number" : [  ]
 				}
 
 			}
@@ -21,7 +21,7 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"live.gain~" : [  ]
+					"number" : [  ]
 				}
 
 			}
@@ -29,7 +29,7 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"live.gain~" : [  ]
+					"number" : [  ]
 				}
 
 			}
@@ -37,7 +37,7 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"live.gain~" : [  ]
+					"number" : [  ]
 				}
 
 			}
@@ -45,7 +45,7 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
-					"live.gain~" : [  ]
+					"number" : [  ]
 				}
 
 			}
