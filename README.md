@@ -3,7 +3,7 @@ Proyecto Impacto 2026
 
 DESCRIPCIÓN: 
 
-Improv Automata es un dispositivo de improvisación que opera como un agente autónomo multiagencial que interactúa en base a Machine Learning y procesos de retroalimentación recursiva.   
+Improv Automata es un dispositivo de improvisación que opera como un agente autónomo multiagencial que interactúa en base a Machine Learning y procesos de retroalimentación.   
 
 INSTALACIÓN Y USO:
 
@@ -11,10 +11,9 @@ INSTALACIÓN Y USO:
 
 CARACTERÍSTICAS PRINCIPALES: 
 
-<img width="1042" height="581" alt="Captura de pantalla 2026-07-01 a la(s) 5 49 17 p m" src="https://github.com/user-attachments/assets/52bd61f9-c7e5-410d-9c67-29cd81bc65f0" />
+<img width="1042" height="581" alt="Captura de pantalla 2026-07-01 a la(s) 5 49 17 p m" src="https://github.com/user-attachments/assets/06dff723-ae47-48e6-b8e5-f7cb9d972b19" />
 
-
-Improv Automata opera a través de una arquitectura jerárquica de memoria y percepción. Su primer elemento es un Imput Strem Buffer, el cual se activa al inicio de cada sesión de improvisación. Este componente captura el sonido del imput y registra simultáneamente lo que el automata está generando (output feedback). Esto permite la recursividad del sistema pa reincorporar los resultados como nuevos imputs para la creación. 
+Improv Automata opera a través de una arquitectura jerárquica de memoria y percepción. Su primer elemento es un Imput Stream Buffer, el cual se activa al inicio de cada sesión de improvisación. Este componente captura el sonido del imput y registra simultáneamente lo que el automata está generando (output feedback). Esto permite la recursividad del sistema pa reincorporar los resultados como nuevos imputs para la creación. 
 El segundo elemento es el Attention buffer el cual llena y segmenta el buffer (imput y output feedback) con audio de eventos que ocurren en el corto plazo, manteniendo el sistema siempre atento e inmediato.  
 El tercer elemento es el Polybuffer funciona como un sistema de memoria de segundo orden, almacena los extractos sonoros y los guarda en la primera entrada del buffer, a medida que entra más material va dejando las ideas mas antiguas abajo, permitiendo que se mantenga una cronologia de la sesion donde las ideas pasadas siguen disponibles, pero en segundo plano.  
 El cuarto elemento es el objeto ML.SOM que es encargado de la fase de análisis y toma de decisiones. Para el análisis usa un esquema de datos, o mapas auto-organizados, con colección de información de distintas características sonoras, luego estos datos se envían y el ML.SOM los procesa y los representa un mapa 2D que sirve como el cerebro de percepcion del automata, a traves de esto el software decide no solo de manera reactiva, sino que también proactiva, cómo y cuándo utilizar los artefactos sonoros,  proponiéndo nuevas ideas musicales.  
