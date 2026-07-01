@@ -11,6 +11,9 @@ INSTALACIÓN Y USO:
 
 CARACTERÍSTICAS PRINCIPALES: 
 
+<img width="1042" height="581" alt="Captura de pantalla 2026-07-01 a la(s) 5 49 17 p m" src="https://github.com/user-attachments/assets/52bd61f9-c7e5-410d-9c67-29cd81bc65f0" />
+
+
 Improv Automata opera a través de una arquitectura jerárquica de memoria y percepción. Su primer elemento es un Imput Strem Buffer, el cual se activa al inicio de cada sesión de improvisación. Este componente captura el sonido del imput y registra simultáneamente lo que el automata está generando (output feedback). Esto permite la recursividad del sistema pa reincorporar los resultados como nuevos imputs para la creación. 
 El segundo elemento es el Attention buffer el cual llena y segmenta el buffer (imput y output feedback) con audio de eventos que ocurren en el corto plazo, manteniendo el sistema siempre atento e inmediato.  
 El tercer elemento es el Polybuffer funciona como un sistema de memoria de segundo orden, almacena los extractos sonoros y los guarda en la primera entrada del buffer, a medida que entra más material va dejando las ideas mas antiguas abajo, permitiendo que se mantenga una cronologia de la sesion donde las ideas pasadas siguen disponibles, pero en segundo plano.  
