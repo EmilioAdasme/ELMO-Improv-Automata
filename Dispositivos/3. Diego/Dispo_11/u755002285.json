@@ -1,0 +1,31 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u637001036",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"phasorFreq" : [ 0.1 ],
+					"lfoAmount" : [ 100.0 ],
+					"waveSel" : [ 3 ],
+					"waveselRamp" : [ 1759 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"phasorFreq" : [ 0 ],
+					"lfoAmount" : [ 0 ],
+					"waveSel" : [ 0 ],
+					"waveselRamp" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
