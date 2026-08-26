@@ -390,10 +390,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 891.0, 766.0, 166.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 943, 254, 1594, 515 ]
+						"storage_rect" : [ 220, 429, 1036, 623 ]
 					}
 ,
 					"text" : "pattrstorage @savemode 2",

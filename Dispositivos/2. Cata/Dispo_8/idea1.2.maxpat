@@ -10,9 +10,21 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 835.0, 163.0, 798.0, 802.0 ],
+		"rect" : [ 34.0, 95.0, 1483.0, 802.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1612.0, 330.5, 150.0, 47.0 ],
+					"text" : "se podria agregar un tercero que active y desactive el random"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-134",
 					"maxclass" : "number",
@@ -20,7 +32,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1412.0, 417.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1455.0, 417.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -32,12 +44,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1411.888126194477081, 330.069933414459229, 41.0, 48.0 ],
+					"patching_rect" : [ 1455.0, 330.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[1]",
-							"parameter_mmax" : 30000.0,
-							"parameter_mmin" : 500.0,
+							"parameter_mmax" : 9000.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Modify",
 							"parameter_type" : 0,
@@ -52,26 +63,13 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-131",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1417.482531845569611, 692.3076993227005, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-129",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1428.671343147754669, 635.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1472.0, 646.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -82,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1428.671343147754669, 599.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1472.0, 599.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -94,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1428.671343147754669, 553.8461594581604, 65.0, 22.0 ],
+					"patching_rect" : [ 1472.0, 554.0, 65.0, 22.0 ],
 					"text" : "random 11"
 				}
 
@@ -107,7 +105,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1428.671343147754669, 504.895110011100769, 24.0, 24.0 ]
+					"patching_rect" : [ 1472.0, 505.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -118,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1233.0, 481.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1317.0, 462.0, 67.0, 22.0 ],
 					"text" : "delay 6500"
 				}
 
@@ -131,18 +129,18 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1233.0, 426.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1276.0, 426.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-118",
-					"linecount" : 41,
+					"linecount" : 29,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1584.615400671958923, 380.419584274291992, 158.0, 556.0 ],
+					"patching_rect" : [ 1612.0, 578.5, 230.0, 395.0 ],
 					"text" : "desligar las dos operaciones pero una interviene en la otra (con un random por ejemplo) \nserie de 1 a 11 flotante y una serie de 1 a 11 integral. \nDeterminar en que momento interviene el random y porque, podria determinar con un segudno parametro que tanto interviene en random (como un wet dry). Mi principal control es el flotante y un livedial que determine que tanto interviene el random en llevarte a otro numero. \nel random necesita un bang, para eso podria tener un metro con active 1 (en el inlet derecho reciber tiempo en milisegundos y eso se podría controlar con el live.dial que podria estar entre dos valores tipo 50 y 5000, o 100 a 10000 (el bajo lo tengo que calibrar mejor) Ahi quedo con live dial y flotante que van a mi pattrn storage. Sería bacan que el numero del random se quede en el patter 9 hasta que decida mover el flotante. \nLo idea es que en el numero maximo parex que esta desconectado. \nEl bang se puede hacer con otra cosa igual, onda un delay del flotante (usando el flotante como bang"
 				}
 
@@ -275,7 +273,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 598.5, 85.0, 152.0, 22.0 ],
-					"restore" : [ 302 ],
+					"restore" : [ 630 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -330,7 +328,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1077.0, 286.0, 152.0, 22.0 ],
-					"restore" : [ 1704 ],
+					"restore" : [ 3681 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -349,7 +347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 941.0, 106.0, 152.0, 22.0 ],
-					"restore" : [ 1707 ],
+					"restore" : [ 1066 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -368,7 +366,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 737.5, 11.0, 165.0, 22.0 ],
-					"restore" : [ 55.620000000000005 ],
+					"restore" : [ 104.999999999999915 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -527,7 +525,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 127.0, 395.0, 50.0, 22.0 ],
-									"text" : "1.2 0.9"
+									"text" : "0.1 1.2"
 								}
 
 							}
@@ -1753,7 +1751,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1237.5, 356.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1276.0, 343.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -2462,7 +2460,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
+					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-129", 0 ]
 				}
 
@@ -2837,8 +2835,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 1247.0, 242.0, 1309.5, 242.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -2846,15 +2843,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
-					"order" : 2,
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-131", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-52", 0 ]
 				}
 
