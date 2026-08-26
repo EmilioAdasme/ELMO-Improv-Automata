@@ -10,9 +10,96 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1298.0, 609.0 ],
+		"rect" : [ 134.0, 134.0, 1127.0, 802.0 ],
+		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 16.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 873.0, 59.5, 205.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 9.0, 80.0, 25.0 ],
+					"text" : "Dispo 1.6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 868.0, 86.5, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 44.0, 89.0, 20.0 ],
+					"text" : "Preset selector"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "presetSel (1. 4.)",
+					"id" : "obj-24",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 945.0, 269.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-20",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 988.0, 270.0, 222.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 71.0, 222.0, 29.0 ],
+					"size" : 4.0,
+					"varname" : "slider"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "audioOut~",
+					"id" : "obj-16",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 149.0, 903.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-15",
+					"maxclass" : "flonum",
+					"maximum" : 4.0,
+					"minimum" : 1.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 945.0, 331.0, 50.0, 22.0 ],
+					"varname" : "number[13]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "message",
@@ -214,7 +301,7 @@
 						"client_rect" : [ 2417, 126, 2817, 626 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 2680, 198, 3061, 612 ]
+						"storage_rect" : [ 100, 134, 481, 548 ]
 					}
 ,
 					"text" : "pattrstorage @savemode 2",
@@ -231,12 +318,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 622.0, 122.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -70.0 ],
-						"live.gain~[1]" : [ -70.0 ],
+						"live.gain~" : [ -0.844873772221774 ],
+						"live.gain~[1]" : [ -7.234191086938885 ],
 						"number" : [ 9.074000000000002 ],
 						"number[10]" : [ 0.85 ],
 						"number[11]" : [ 42.759999999999991 ],
 						"number[12]" : [ 3.84 ],
+						"number[13]" : [ 1.0 ],
 						"number[1]" : [ 17.431999999999999 ],
 						"number[2]" : [ 17.695999999999998 ],
 						"number[3]" : [ 0.654280001144409 ],
@@ -246,6 +334,7 @@
 						"number[7]" : [ 1.11 ],
 						"number[8]" : [ 18.0 ],
 						"number[9]" : [ 33.399999999999991 ],
+						"slider" : [ 0.0 ],
 						"toggle" : [ 0 ],
 						"toggle[1]" : [ 0 ]
 					}
@@ -815,17 +904,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 154.0, 879.0, 35.0, 22.0 ],
-					"text" : "dac~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -845,6 +923,18 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.0, 324.0, 35.0, 22.0 ],
 					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1035.0, 65.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 237.0, 106.0 ]
 				}
 
 			}
@@ -921,6 +1011,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
@@ -929,16 +1026,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
+					"destination" : [ "obj-16", 0 ],
 					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 2,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -959,8 +1048,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1285,16 +1388,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
+					"destination" : [ "obj-16", 0 ],
 					"order" : 1,
-					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 2,
 					"source" : [ "obj-89", 0 ]
 				}
 
@@ -1376,8 +1471,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Dispo_5_PattrStorage.json",
-				"bootpath" : "~/Documents/Composición/Obras/Autom",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}

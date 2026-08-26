@@ -2,8 +2,8 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3870547814,
-	"viewrect" : [ 66.0, 162.0, 300.0, 500.0 ],
+	"modificationdate" : 3870624664,
+	"viewrect" : [ 66.0, 162.0, 501.0, 600.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -138,6 +138,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"dispoModule.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -218,10 +223,6 @@
 			"ml.som.mxe64" : 			{
 				"kind" : "object"
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 

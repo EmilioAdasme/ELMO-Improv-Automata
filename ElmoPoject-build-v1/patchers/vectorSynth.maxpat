@@ -10,22 +10,23 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2146.0, 85.0, 890.0, 905.0 ],
+		"rect" : [ 34.0, 77.0, 1127.0, 802.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 16.0,
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 16.0, 150.0, 20.0 ],
+					"patching_rect" : [ 34.0, 16.0, 198.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.024385213851929, 8.0, 150.0, 20.0 ],
-					"text" : "VECTOR SYNTH",
+					"presentation_rect" : [ 30.0, 9.0, 80.0, 25.0 ],
+					"text" : "Dispo 3.2",
 					"textcolor" : [ 0.074509803921569, 0.074509803921569, 0.074509803921569, 1.0 ],
-					"textjustification" : 1
+					"textjustification" : 0
 				}
 
 			}
@@ -1345,7 +1346,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2732.0, 135.0, 669.0, 791.0 ],
+						"rect" : [ 134.0, 134.0, 669.0, 791.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -3925,7 +3926,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "distFft.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/Dispositivos/3. Diego/Dispo_10",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
