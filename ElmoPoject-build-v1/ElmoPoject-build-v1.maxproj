@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3870547814,
+	"modificationdate" : 3870549305,
 	"viewrect" : [ 66.0, 162.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -106,7 +106,8 @@
 			}
 ,
 			"pan2.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"Input_buffer_16-06-2026.maxpat" : 			{
@@ -135,6 +136,11 @@
 			}
 ,
 			"vectorSynth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"SOM-Transformer-v2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
