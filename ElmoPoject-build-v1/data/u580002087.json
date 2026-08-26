@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u580002087",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"freqOsc" : [ 20.0 ],
+					"delTime" : [ 5000.0 ],
+					"durEnv" : [ 0.1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"freqOsc" : [ 50.0 ],
+					"delTime" : [ 1000.0 ],
+					"durEnv" : [ 2.5 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"freqOsc" : [ 300.0 ],
+					"delTime" : [ 500.0 ],
+					"durEnv" : [ 4.5 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"freqOsc" : [ 900.0 ],
+					"delTime" : [ 50.0 ],
+					"durEnv" : [ 10.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
