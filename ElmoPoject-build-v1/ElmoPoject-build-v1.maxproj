@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3870624664,
+	"modificationdate" : 3871057484,
 	"viewrect" : [ 66.0, 162.0, 501.0, 600.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,32 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"Alienamigo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Aliens.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_1.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_2_2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_3.maxpat" : 			{
+			"dispoModule.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -50,37 +25,12 @@
 				"kind" : "clipping"
 			}
 ,
-			"Dispo_4.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_5.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_6.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"SimpleConvoPfft.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"Dispo_7.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"syfm.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Dispo_12.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -91,16 +41,6 @@
 			}
 ,
 			"distFft.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"idea 2.2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"idea1.2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -119,11 +59,6 @@
 				"local" : 1
 			}
 ,
-			"pulsarHarmonic.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"SOM-tests-v2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -134,12 +69,72 @@
 				"local" : 1
 			}
 ,
-			"vectorSynth.maxpat" : 			{
+			"Dispo_1_1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"dispoModule.maxpat" : 			{
+			"Dispo_1_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_1_3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_1_4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_1_5.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_1_6.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_1_7.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_1_8.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_2_1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_3_1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_3_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_3_3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_2_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_2_3.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -147,6 +142,11 @@
 		}
 ,
 		"code" : 		{
+			"pdm.gatedetect.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"freeverb.gendsp" : 			{
 				"kind" : "gendsp"
 			}
@@ -158,20 +158,10 @@
 			"freeverb_comb.gendsp" : 			{
 				"kind" : "gendsp"
 			}
-,
-			"pdm.gatedetect.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
 
 		}
 ,
 		"data" : 		{
-			"u066002949.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"u415000645.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -202,17 +192,22 @@
 				"local" : 1
 			}
 ,
+			"u066002949.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"u580002087.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"u163000875.json" : 			{
+			"u755002285.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"u755002285.json" : 			{
+			"u163000875.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}

@@ -5,10 +5,10 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"phasorFreq" : [ 0.1 ],
-					"lfoAmount" : [ 100.0 ],
-					"waveSel" : [ 3 ],
-					"waveselRamp" : [ 1759 ]
+					"phasorFreq" : [ 0.001 ],
+					"lfoAmount" : [ 0.0 ],
+					"waveSel" : [ 1.0 ],
+					"pulsarSig" : [ 0.001 ]
 				}
 
 			}
@@ -16,10 +16,76 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"phasorFreq" : [ 0 ],
-					"lfoAmount" : [ 0 ],
-					"waveSel" : [ 0 ],
-					"waveselRamp" : [ 0 ]
+					"phasorFreq" : [ 0.05 ],
+					"lfoAmount" : [ 25.984251968503912 ],
+					"waveSel" : [ 1.0 ],
+					"pulsarSig" : [ 0.04 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"phasorFreq" : [ 0.1 ],
+					"lfoAmount" : [ 50.393700787401507 ],
+					"waveSel" : [ 2.0 ],
+					"pulsarSig" : [ 0.088 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"phasorFreq" : [ 0.269 ],
+					"lfoAmount" : [ 70.866141732283367 ],
+					"waveSel" : [ 3.0 ],
+					"pulsarSig" : [ 0.35 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"phasorFreq" : [ 0.61 ],
+					"lfoAmount" : [ 100.0 ],
+					"waveSel" : [ 3.0 ],
+					"pulsarSig" : [ 0.61 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"phasorFreq" : [ 1.0 ],
+					"lfoAmount" : [ 79.527559055118161 ],
+					"waveSel" : [ 2.0 ],
+					"pulsarSig" : [ 0.88 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"phasorFreq" : [ 1.17 ],
+					"lfoAmount" : [ 60.629921259842575 ],
+					"waveSel" : [ 1.0 ],
+					"pulsarSig" : [ 0.926 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"phasorFreq" : [ 1.313 ],
+					"lfoAmount" : [ 0.0 ],
+					"waveSel" : [ 1.0 ],
+					"pulsarSig" : [ 1.0 ]
 				}
 
 			}
