@@ -2,8 +2,8 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3870549305,
-	"viewrect" : [ 66.0, 162.0, 300.0, 500.0 ],
+	"modificationdate" : 3870563141,
+	"viewrect" : [ 66.0, 162.0, 300.0, 705.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -110,11 +110,6 @@
 				"local" : 1
 			}
 ,
-			"Input_buffer_16-06-2026.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"Multiharm.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -141,6 +136,16 @@
 			}
 ,
 			"SOM-Transformer-v2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Stage1-2-merger.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"stacker.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
