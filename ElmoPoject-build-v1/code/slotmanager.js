@@ -10,6 +10,15 @@ for (var i = 0; i < NUMSLOTS; i++) {
 var CTRL_NAMES = ["ctrlA", "ctrlB", "ctrlC"];
 var OUT_NAMES = ["outA", "outB", "outC"]; // espejo de CTRL_NAMES, para la salida
 
+// Devuelve qué nombre (de ctrlA/B/C u outA/B/C) corresponde a la posición i,
+// de un total de "total" conexiones activas. La ÚLTIMA posición siempre
+// recibe el canal C (volumen), sin importar cuántas posiciones haya en total.
+function mappedName(names, i, total) {
+    if (total <= 0) return null;
+    if (i === total - 1) return names[names.length - 1]; // última posición → siempre "C"
+    return names[i];
+}
+
 // Cantidad de canales de audio de cada dispositivo (1 = mono, 2 = estéreo).
 // Hace falta declararlo a mano porque el conteo total de outlets ya no
 // alcanza para deducirlo (ahora incluye también los outlets de parámetros).
@@ -27,9 +36,7 @@ var AUDIO_CHANNELS = {
     "dispo2_3": 2,
     "dispo3_1": 2,
     "dispo3_2": 1,
-    "dispo3_3": 1,
-
-    // ajustar según corresponda a cada dispositivo real
+    "dispo3_3": 1
 };
 
 // ---------------------------------------------------------
@@ -94,15 +101,14 @@ var LIMITER_NAME = "limi"; // Scripting Name del objeto limitador (confirmar/aju
 
 function connectDevice(patcher, dest, deviceName, idx) {
     var numInlets = dest.getboxattr("numinlets");
-    var numParams = 0;
-    for (var i = 0; i < CTRL_NAMES.length; i++) {
-        if (i >= numInlets) break;
-        var src = patcher.getnamed(CTRL_NAMES[i]);
+    var numParams = Math.min(CTRL_NAMES.length, numInlets);
+    for (var i = 0; i < numParams; i++) {
+        var ctrlName = mappedName(CTRL_NAMES, i, numParams);
+        var src = patcher.getnamed(ctrlName);
         if (src) {
             patcher.connect(src, idx, dest, i);
-            numParams++;
         } else {
-            post("slotmanager: no se encontró '" + CTRL_NAMES[i] + "'\n");
+            post("slotmanager: no se encontró '" + ctrlName + "'\n");
         }
     }
     connectAudio(patcher, dest, deviceName);
@@ -112,9 +118,9 @@ function connectDevice(patcher, dest, deviceName, idx) {
 function disconnectDevice(patcher, dest, deviceName, idx) {
     var numInlets = dest.getboxattr("numinlets");
     var numParams = Math.min(CTRL_NAMES.length, numInlets);
-    for (var i = 0; i < CTRL_NAMES.length; i++) {
-        if (i >= numInlets) break;
-        var src = patcher.getnamed(CTRL_NAMES[i]);
+    for (var i = 0; i < numParams; i++) {
+        var ctrlName = mappedName(CTRL_NAMES, i, numParams);
+        var src = patcher.getnamed(ctrlName);
         if (src) {
             patcher.disconnect(src, idx, dest, i);
         }
@@ -138,11 +144,12 @@ function connectParamsOut(patcher, srcObj, deviceName, idx, numParams) {
 
     for (var p = 0; p < numParams; p++) {
         var outletIdx = audioChannels + p; // los outlets de parámetros van después de los de audio
-        var target = patcher.getnamed(OUT_NAMES[p]);
+        var outName = mappedName(OUT_NAMES, p, numParams);
+        var target = patcher.getnamed(outName);
         if (target) {
             patcher.connect(srcObj, outletIdx, target, idx);
         } else {
-            post("slotmanager: no se encontró '" + OUT_NAMES[p] + "'\n");
+            post("slotmanager: no se encontró '" + outName + "'\n");
         }
     }
 }
@@ -153,7 +160,8 @@ function disconnectParamsOut(patcher, srcObj, deviceName, idx, numParams) {
 
     for (var p = 0; p < numParams; p++) {
         var outletIdx = audioChannels + p;
-        var target = patcher.getnamed(OUT_NAMES[p]);
+        var outName = mappedName(OUT_NAMES, p, numParams);
+        var target = patcher.getnamed(outName);
         if (target) {
             patcher.disconnect(srcObj, outletIdx, target, idx);
         }
