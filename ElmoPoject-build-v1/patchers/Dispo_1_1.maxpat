@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 320.0, 268.0, 890.0, 477.0 ],
+		"rect" : [ 240.0, 126.0, 1462.0, 631.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -22,7 +22,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1531.0, 1250.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1531.0, 1250.0, 50.0, 22.0 ],
+					"varname" : "number[33]"
 				}
 
 			}
@@ -50,8 +51,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 433.0, 764.0, 67.0, 22.0 ],
-					"text" : "Tool_pump"
+					"patching_rect" : [ 433.0, 764.0, 84.0, 22.0 ],
+					"text" : "Tool_pump 40"
 				}
 
 			}
@@ -1244,24 +1245,24 @@
 					"restore" : 					{
 						"function" : [ 68.0, 0.0, 1.0, 0.0, 0.0, 0, 6.148936170212759, 0.84, 0, 16.63829787234036, 0.266666666666667, 0, 48.106382978721825, 0.0, 0, 68.000000000000682, 0.0, 0, "linear" ],
 						"gswitch" : [ 0 ],
-						"live.gain~" : [ -0.231813112655786 ],
+						"live.gain~" : [ -70.0 ],
 						"nodes" : [ 0.403225806451613, 0.49618320610687, 0.5, 1, 0.5, 0.561068702290076, 0.5, 1, 0.560931899641577, 0.416030534351145, 0.5, 1 ],
 						"number" : [ 4 ],
-						"number[10]" : [ 0.02 ],
-						"number[11]" : [ 0.03 ],
+						"number[10]" : [ 4.78 ],
+						"number[11]" : [ 0.231 ],
 						"number[12]" : [ 4.0 ],
 						"number[13]" : [ 296.0 ],
 						"number[14]" : [ 11.5 ],
-						"number[15]" : [ 95.0 ],
-						"number[16]" : [ 0.03 ],
-						"number[17]" : [ 10.0 ],
-						"number[18]" : [ 226.0 ],
+						"number[15]" : [ 20.800000000000001 ],
+						"number[16]" : [ 1.04 ],
+						"number[17]" : [ 941.0 ],
+						"number[18]" : [ 2052.0 ],
 						"number[19]" : [ 0.6 ],
-						"number[1]" : [ 1.058366550588149 ],
+						"number[1]" : [ 1.0 ],
 						"number[20]" : [ 28.0 ],
-						"number[21]" : [ 0.021 ],
-						"number[22]" : [ 68 ],
-						"number[23]" : [ 0.325127681039508 ],
+						"number[21]" : [ 0.22 ],
+						"number[22]" : [ 0 ],
+						"number[23]" : [ 0.0 ],
 						"number[24]" : [ 588.0 ],
 						"number[25]" : [ 3.0 ],
 						"number[26]" : [ 0.1 ],
@@ -1271,16 +1272,17 @@
 						"number[2]" : [ 0.91 ],
 						"number[30]" : [ 0.990476190476191 ],
 						"number[31]" : [ 0 ],
-						"number[32]" : [ 141 ],
+						"number[32]" : [ 0 ],
+						"number[33]" : [ 254.0 ],
 						"number[3]" : [ 31.0 ],
 						"number[4]" : [ 6.4 ],
 						"number[5]" : [ 35.0 ],
 						"number[6]" : [ 0.51 ],
-						"number[7]" : [ 98.0 ],
+						"number[7]" : [ 1.55 ],
 						"number[8]" : [ 0.05 ],
-						"number[9]" : [ 89.0 ],
-						"slider" : [ 990 ],
-						"slider[1]" : [ 141 ],
+						"number[9]" : [ 1.7 ],
+						"slider" : [ 0 ],
+						"slider[1]" : [ 0 ],
 						"toggle" : [ 0 ],
 						"toggle[1]" : [ 0 ]
 					}
@@ -3237,14 +3239,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documents/ELMO-PROJECT-RESETBRANCH/ElmoPoject-build-v1/patchers",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "u415000645.json",
-				"bootpath" : "~/Documents/ELMO-PROJECT-RESETBRANCH/ElmoPoject-build-v1/data",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1

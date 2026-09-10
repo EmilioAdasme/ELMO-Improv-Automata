@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 480.0, 95.0, 962.0, 936.0 ],
+		"rect" : [ 460.0, 111.0, 962.0, 936.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
@@ -249,7 +249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 853.0, 248.0, 20.0 ],
+					"patching_rect" : [ 83.0, 822.0, 248.0, 20.0 ],
 					"text" : "Fetch the                    th element in the stack"
 				}
 
