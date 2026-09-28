@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3871182332,
+	"modificationdate" : 3873339588,
 	"viewrect" : [ 61.0, 179.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,6 +21,11 @@
 			}
 ,
 			"Dispo_1_1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Tool_pump.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -132,7 +137,7 @@
 				"local" : 1
 			}
 ,
-			"Tool_pump.maxpat" : 			{
+			"Tool_disposlot.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
