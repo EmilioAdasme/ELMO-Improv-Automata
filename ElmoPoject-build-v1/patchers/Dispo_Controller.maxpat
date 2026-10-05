@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 92.0, 1852.0, 954.0 ],
+		"rect" : [ 1327.0, 92.0, 558.0, 954.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -435,7 +435,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 639.0, 165.0, 116.0 ],
-					"presentation_linecount" : 12,
 					"text" : "script newobject bpatcher @name Tool_disposlot @varname $1 @patching_position 0 $2 @presentation 1 @presentation_position 0 $2 @presentation_rect 0. $2 550. 300. @clickthrough 1"
 				}
 
