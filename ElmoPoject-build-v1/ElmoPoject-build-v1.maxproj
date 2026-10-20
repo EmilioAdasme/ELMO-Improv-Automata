@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3874373679,
+	"modificationdate" : 3875325438,
 	"viewrect" : [ 61.0, 179.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -128,8 +128,7 @@
 ,
 			"Input_Transformer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"Tool_stacker.maxpat" : 			{
@@ -149,7 +148,8 @@
 ,
 			"Input_Transformer_V3.1.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
