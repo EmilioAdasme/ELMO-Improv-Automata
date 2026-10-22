@@ -177,7 +177,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 50.0, 391.0, 39.0, 22.0 ],
-					"text" : "t b 30"
+					"text" : "t b #1"
 				}
 
 			}

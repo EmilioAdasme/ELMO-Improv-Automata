@@ -128,8 +128,7 @@
 ,
 			"Input_Transformer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"Tool_stacker.maxpat" : 			{
@@ -140,6 +139,17 @@
 			"Tool_disposlot.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"Input-test-9-9-26.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Input_Transformer_V3.1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
