@@ -2,8 +2,8 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3873339588,
-	"viewrect" : [ 61.0, 179.0, 501.0, 797.0 ],
+	"modificationdate" : 3874874328,
+	"viewrect" : [ 532.0, 80.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -141,6 +141,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"Tool_caosEG.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -171,11 +176,6 @@
 ,
 		"data" : 		{
 			"u415000645.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"u392001332-2.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -215,6 +215,11 @@
 				"local" : 1
 			}
 ,
+			"u392001332-2.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"u392001332.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -230,6 +235,10 @@
 			"ml.som.mxo" : 			{
 				"kind" : "object"
 			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
