@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
+		"rect" : [ 1217.0, 107.0, 556.0, 825.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -79,8 +79,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 693.0, 633.0, 102.0, 36.0 ],
-					"text" : "activate IKNKNPXB"
+					"patching_rect" : [ 693.0, 633.0, 102.0, 35.0 ],
+					"text" : "activate VAUHIRTW"
 				}
 
 			}
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 1475.0, 150.0, 62.0 ],
+					"patching_rect" : [ 127.0, 1475.0, 150.0, 60.0 ],
 					"text" : "mc.unpack para conectar una sola salida de audio aunque el dispo tenga 2 saidas"
 				}
 
@@ -493,8 +493,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 846.0, 602.0, 152.0, 133.0 ],
-					"presentation_linecount" : 9,
+					"patching_rect" : [ 846.0, 602.0, 152.0, 129.0 ],
 					"text" : "script newobject bpatcher @name Tool_disposlot @varname $1 @patching_position 0 $2 @presentation 1 @presentation_position 0 $2 @presentation_rect 0. $2 550. 202. @clickthrough 1"
 				}
 
@@ -583,9 +582,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1761.0, 1979.0, 62.0, 53.0 ],
+					"patching_rect" : [ 1761.0, 1979.0, 62.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 58.0, 62.0, 53.0 ],
+					"presentation_rect" : [ 285.0, 58.0, 62.0, 52.0 ],
 					"text" : "d",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
 					"textjustification" : 1
@@ -604,7 +603,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1165,7 +1164,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1757,7 +1756,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2058,7 +2057,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2359,7 +2358,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2656,7 +2655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3440.0, 31.0, 152.0, 34.0 ],
+					"patching_rect" : [ 3440.0, 31.0, 152.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 9.0, 182.0, 20.0 ],
 					"text" : "MODULO DE DISPOSITIVOS",
@@ -2718,7 +2717,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3008,7 +3007,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3328,78 +3327,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-118",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Tool_disposlot.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 0.0, 2330.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2330.0, 550.0, 202.0 ],
-					"varname" : "VVTXNMKK[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-128",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Tool_disposlot.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 0.0, 130.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 130.0, 550.0, 202.0 ],
-					"varname" : "WUTESUNH",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-130",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Tool_disposlot.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 0.0, 330.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 330.0, 550.0, 202.0 ],
-					"varname" : "IKNKNPXB",
-					"viewvisibility" : 1
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3436,76 +3363,6 @@
 					"destination" : [ "obj-192", 1 ],
 					"midpoints" : [ 337.5, 1578.0, 336.5, 1578.0 ],
 					"source" : [ "obj-125", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-125", 0 ],
-					"source" : [ "obj-128", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-152", 0 ],
-					"source" : [ "obj-128", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 1 ],
-					"source" : [ "obj-128", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 0 ],
-					"source" : [ "obj-128", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-128", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-125", 1 ],
-					"source" : [ "obj-130", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-152", 1 ],
-					"source" : [ "obj-130", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 1 ],
-					"source" : [ "obj-130", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 0 ],
-					"source" : [ "obj-130", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 1 ],
-					"source" : [ "obj-130", 2 ]
 				}
 
 			}
@@ -3691,20 +3548,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-226", 1 ],
 					"source" : [ "obj-210", 0 ]
 				}
@@ -3879,20 +3722,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-128", 1 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 1 ],
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-159", 0 ],
 					"order" : 0,
 					"source" : [ "obj-307", 0 ]
@@ -4038,20 +3867,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-128", 2 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 2 ],
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 1 ],
 					"source" : [ "obj-55", 1 ]
 				}
@@ -4095,15 +3910,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-118::obj-19::obj-88" : [ "live.gain~[54]", "live.gain~", 0 ],
-			"obj-118::obj-68" : [ "live.gain~[55]", "Output", 0 ],
-			"obj-118::obj-86" : [ "live.gain~[56]", "Output", 0 ],
-			"obj-128::obj-19::obj-88" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-128::obj-68" : [ "live.gain~[1]", "Output", 0 ],
-			"obj-128::obj-86" : [ "live.gain~[2]", "Output", 0 ],
-			"obj-130::obj-19::obj-88" : [ "live.gain~[35]", "live.gain~", 0 ],
-			"obj-130::obj-68" : [ "live.gain~[57]", "Output", 0 ],
-			"obj-130::obj-86" : [ "live.gain~[52]", "Output", 0 ],
 			"obj-55" : [ "live.gain~[4]", "live.gain~[3]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -4114,69 +3920,14 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-118::obj-19::obj-88" : 				{
-					"parameter_longname" : "live.gain~[54]"
-				}
-,
-				"obj-118::obj-68" : 				{
-					"parameter_longname" : "live.gain~[55]"
-				}
-,
-				"obj-118::obj-86" : 				{
-					"parameter_longname" : "live.gain~[56]"
-				}
-,
-				"obj-130::obj-19::obj-88" : 				{
-					"parameter_longname" : "live.gain~[35]"
-				}
-,
-				"obj-130::obj-68" : 				{
-					"parameter_longname" : "live.gain~[57]"
-				}
-,
-				"obj-130::obj-86" : 				{
-					"parameter_longname" : "live.gain~[52]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Dispo_1_1.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Dispo_Controller_slotmanager.js",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/code",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tool_disposlot.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "u415000645.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

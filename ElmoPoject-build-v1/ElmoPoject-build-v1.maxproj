@@ -2,8 +2,8 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3874874328,
-	"viewrect" : [ 532.0, 80.0, 501.0, 797.0 ],
+	"modificationdate" : 3875902321,
+	"viewrect" : [ 100.0, 164.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -31,6 +31,11 @@
 			}
 ,
 			"Dispo_1_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Tool_caosEG.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -126,7 +131,7 @@
 				"toplevel" : 1
 			}
 ,
-			"Input_Transformer.maxpat" : 			{
+			"Tool_disposlot.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -136,14 +141,10 @@
 				"local" : 1
 			}
 ,
-			"Tool_disposlot.maxpat" : 			{
+			"Input_Transformer_V3.1.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Tool_caosEG.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
@@ -175,6 +176,11 @@
 ,
 		"data" : 		{
 			"u415000645.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"u392001332.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -218,11 +224,6 @@
 				"kind" : "json",
 				"local" : 1
 			}
-,
-			"u392001332.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
 
 		}
 ,
@@ -234,10 +235,6 @@
 			"ml.som.mxo" : 			{
 				"kind" : "object"
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 
