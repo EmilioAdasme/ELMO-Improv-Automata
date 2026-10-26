@@ -1,0 +1,143 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 7,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 661.0, 708.0, 35.0, 22.0 ],
+					"text" : "out 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 514.0, 708.0, 35.0, 22.0 ],
+					"text" : "out 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 367.0, 708.0, 35.0, 22.0 ],
+					"text" : "out 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 220.0, 708.0, 35.0, 22.0 ],
+					"text" : "out 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "// in1  = caos (0..1) — la única variable\n// out1 = envolvente (0..1), multiplícala por la salida del drone\n// out2 = trigger de 1 muestra en cada evento audible\n// out3 = rampa cruda del evento (para otras formas)\n// out4 = duración del ciclo actual en ms\n// out5 = compuerta por envolvente: 1 en la primera mitad de cada paso audible\n\nParam base_ms(1500, min=5);\nParam octavas(2, min=0);\nParam ataque(0.08, min=0.001, max=0.99);\nParam curva(2.5, min=0.1);\n\nHistory ph(1);\nHistory inc(0);\nHistory n(1);\nHistory abierto(1);\nHistory r_prev(0);\nHistory dur(1500);\n\nc = clamp(in1, 0, 1);\nu1 = 0; u2 = 0; d = 0; w = 0; pois = 0; psub = 0;\n\n// reloj de ciclo con período variable \nph = ph + inc;\nif (ph >= 1) {\n    ph = wrap(ph, 0, 1);\n\n    // 1) duración log-normal: desvío en octavas escalado por caos\n    d = base_ms * pow(2, noise() * c * octavas);\n\n    // 2) sobre caos 0.6, fundido hacia intervalos de Poisson\n    u1 = max((noise() + 1) * 0.5, 0.0001);\n    pois = base_ms * -log(u1);\n    w = clamp((c - 0.6) / 0.4, 0, 1);\n    d = mix(d, pois, w);\n\n    // 3) subdivisión probabilística, máxima en caos = 0.5\n    psub = 4 * c * (1 - c);\n    u2 = (noise() + 1) * 0.5;\n    if (u2 < psub) {\n        n = floor((noise() + 1) * 0.5 * 3.999) + 2;   // 2..5\n    } else {\n        n = 1;\n    }\n\n    dur = max(d, 5);\n    inc = 1 / mstosamps(dur);\n}\n\n// sub-rampa y decisión de silencio por pulso\nr = wrap(ph * n, 0, 1);\ntrig = 0;\nif (r < r_prev) {\n    abierto = ((noise() + 1) * 0.5) >= (c * c * 0.7);\n    trig = abierto;\n}\nr_prev = r;\n\n// forma de envolvente relativa a la duración\nenv = r < ataque ? r / ataque : pow(1 - (r - ataque) / (1 - ataque), curva);\n\n// compuerta para generar bangs afuera\ncompuerta = abierto * (r < 0.5);\n\nout1 = env * abierto;\nout2 = trig;\nout3 = r;\nout4 = dur;\nout5 = compuerta;",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 73.0, 129.0, 607.0, 558.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 73.0, 66.0, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 73.0, 708.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-5", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-5", 3 ]
+				}
+
+			}
+ ]
+	}
+
+}
