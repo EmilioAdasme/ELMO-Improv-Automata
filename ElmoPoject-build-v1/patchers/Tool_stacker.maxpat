@@ -100,7 +100,7 @@
 				"box" : 				{
 					"comment" : "(signal) Recording Status",
 					"id" : "obj-35",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -112,7 +112,7 @@
 				"box" : 				{
 					"comment" : "(int) Index of nth last sound",
 					"id" : "obj-33",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -124,7 +124,7 @@
 				"box" : 				{
 					"comment" : "(list) connect to waveform",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -148,7 +148,7 @@
 				"box" : 				{
 					"comment" : "(signal) nth last sound",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -160,7 +160,7 @@
 				"box" : 				{
 					"comment" : "(int) Current Index",
 					"id" : "obj-29",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -172,7 +172,7 @@
 				"box" : 				{
 					"comment" : "(int) Get the nth last sound",
 					"id" : "obj-27",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -185,7 +185,7 @@
 				"box" : 				{
 					"comment" : "(bang) Open PB",
 					"id" : "obj-23",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -198,7 +198,7 @@
 				"box" : 				{
 					"comment" : "(bang) Reset PB",
 					"id" : "obj-19",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -211,7 +211,7 @@
 				"box" : 				{
 					"comment" : "(signal) Audio In",
 					"id" : "obj-17",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1597,7 +1597,34 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-5" : [ "atk_thresh_db[2]", "atk_thresh_db", 0 ],
+			"obj-6" : [ "rls_thresh_db[2]", "rls_thresh_db", 0 ],
+			"obj-7" : [ "rls_hold_ms[2]", "rls_hold_ms", 0 ],
+			"obj-8" : [ "atk_hold_ms[2]", "atk_hold_ms", 0 ],
+			"obj-9" : [ "env_smoothing[2]", "env_smoothing", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "pdm.gatedetect.gendsp",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

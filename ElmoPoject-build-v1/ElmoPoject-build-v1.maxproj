@@ -128,8 +128,7 @@
 ,
 			"Input_Transformer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"Tool_stacker.maxpat" : 			{
