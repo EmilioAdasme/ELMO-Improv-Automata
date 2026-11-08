@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3876103068,
+	"modificationdate" : 3876782382,
 	"viewrect" : [ 22.0, 146.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -143,6 +143,11 @@
 ,
 			"Input_Transformer_V3.1.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Input_Transformer_V3.2.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
@@ -176,6 +181,11 @@
 ,
 		"data" : 		{
 			"u415000645.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dispo_1_2_PattrStorage.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -221,11 +231,6 @@
 			}
 ,
 			"u392001332-2.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dispo_1_2_PattrStorage.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
