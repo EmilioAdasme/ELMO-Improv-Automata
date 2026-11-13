@@ -10,10 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1740.0, 77.0, 1340.0, 921.0 ],
+		"rect" : [ 1740.0, 77.0, 1852.0, 921.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 384.0, 1091.0, 50.0, 22.0 ],
+					"text" : "limi~ 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "dummieIn",
 					"id" : "obj-92",
@@ -330,7 +342,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.5, 1107.0, 30.0, 30.0 ]
+					"patching_rect" : [ 417.0, 1129.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -342,7 +354,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 1107.0, 30.0, 30.0 ]
+					"patching_rect" : [ 384.0, 1129.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -859,7 +871,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 127.0, 395.0, 50.0, 22.0 ],
-									"text" : "0.1 1.2"
+									"text" : "0.9 1.6"
 								}
 
 							}
@@ -1982,7 +1994,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "u163000875.json",
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2758,17 +2769,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"midpoints" : [ 393.5, 1071.0, 393.5, 1071.0 ],
-					"order" : 0,
+					"destination" : [ "obj-166", 1 ],
+					"order" : 1,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 1 ],
+					"order" : 1,
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
-					"midpoints" : [ 401.25, 1092.0, 426.0, 1092.0 ],
+					"destination" : [ "obj-93", 1 ],
 					"order" : 0,
 					"source" : [ "obj-38", 1 ]
 				}
@@ -2776,16 +2793,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 1 ],
-					"order" : 1,
-					"source" : [ "obj-38", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-166", 1 ],
-					"order" : 1,
+					"destination" : [ "obj-93", 0 ],
+					"order" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -3332,6 +3341,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"midpoints" : [ 393.5, 1126.0, 393.5, 1126.0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"midpoints" : [ 424.5, 1123.0, 426.5, 1123.0 ],
+					"source" : [ "obj-93", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
 					"midpoints" : [ 956.5, 354.0, 956.5, 354.0 ],
 					"source" : [ "obj-96", 0 ]
@@ -3406,13 +3431,6 @@
 				"name" : "pan2.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
 				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "u163000875.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}

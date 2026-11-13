@@ -10,10 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 783.0, 787.0 ],
+		"rect" : [ 1740.0, 77.0, 1852.0, 921.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 310.0, 809.0, 53.0, 22.0 ],
+					"text" : "limi~ 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "comment",
@@ -40,7 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 780.0, 789.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.999997854232788, 57.916665285825729, 69.0, 36.0 ],
+					"presentation_rect" : [ 87.97809249162674, 57.879627645015717, 69.0, 36.0 ],
 					"varname" : "number[2]"
 				}
 
@@ -59,7 +71,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 546.0, 789.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 1.629628986120224, 69.0, 36.0 ],
+					"presentation_rect" : [ 88.537039339542389, 1.898148119449615, 69.0, 36.0 ],
 					"varname" : "number[3]"
 				}
 
@@ -78,7 +90,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 660.0, 789.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 29.777776211500168, 69.0, 36.0 ],
+					"presentation_rect" : [ 87.97809249162674, 28.979221761226654, 69.0, 36.0 ],
 					"varname" : "number[35]"
 				}
 
@@ -180,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 873.666666666666629, -54.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.0, 36.064813882112503, 176.296290516853333, 22.962962210178375 ],
+					"presentation_rect" : [ 148.953703701496124, 8.148147881031036, 176.296290516853333, 22.962962210178375 ],
 					"size" : 1.0,
 					"varname" : "slider"
 				}
@@ -324,7 +336,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1160.0, 103.5, 108.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.0, 8.148147881031036, 176.296290516853333, 22.962962210178375 ],
+					"presentation_rect" : [ 148.953703701496124, 36.29629510641098, 176.296290516853333, 22.962962210178375 ],
 					"size" : 2.0
 				}
 
@@ -654,7 +666,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.25, 801.0, 30.0, 30.0 ]
+					"patching_rect" : [ 344.0, 849.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -666,7 +678,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 801.0, 30.0, 30.0 ]
+					"patching_rect" : [ 310.0, 849.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1328,7 +1340,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 237.566188335418701, 225.0, 22.0 ],
-									"text" : "1993."
+									"text" : "1544."
 								}
 
 							}
@@ -2170,7 +2182,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 237.566188335418701, 225.0, 22.0 ],
-									"text" : "624."
+									"text" : "1389."
 								}
 
 							}
@@ -3073,7 +3085,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 237.566188335418701, 225.0, 22.0 ],
-									"text" : "4419."
+									"text" : "1186."
 								}
 
 							}
@@ -3654,15 +3666,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-126", 0 ]
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-126", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-126", 1 ]
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -4245,6 +4257,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 3 ],
 					"order" : 0,
 					"source" : [ "obj-60", 0 ]
@@ -4404,13 +4430,6 @@
 				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "caos_EG.gendsp",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
  ],

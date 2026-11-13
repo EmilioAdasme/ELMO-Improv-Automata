@@ -10,11 +10,23 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1.0, 50.0, 817.0, 821.0 ],
+		"rect" : [ 1706.0, 43.0, 1886.0, 955.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 3,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 718.0, 849.0, 44.0, 22.0 ],
+					"text" : "limi~ 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
 					"fontsize" : 24.0,
@@ -132,7 +144,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.5, 823.0, 30.0, 30.0 ]
+					"patching_rect" : [ 753.0, 890.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -496,7 +508,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 718.0, 823.0, 30.0, 30.0 ]
+					"patching_rect" : [ 718.0, 890.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2244,7 +2256,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "u755002285.json",
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2435,7 +2446,7 @@
 					"patching_rect" : [ 139.0, 310.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.575163543224335, 74.307699203491211, 45.751635432243347, 34.0 ],
+					"presentation_rect" : [ 4.575163543224335, 74.307699203491211, 47.0, 34.0 ],
 					"text" : "Preset sel."
 				}
 
@@ -2604,7 +2615,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
+					"destination" : [ "obj-22", 1 ],
 					"order" : 0,
 					"source" : [ "obj-13", 1 ]
 				}
@@ -2612,7 +2623,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -2733,6 +2744,20 @@
 					"destination" : [ "obj-210", 0 ],
 					"order" : 1,
 					"source" : [ "obj-211", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -3301,13 +3326,6 @@
 				"name" : "Tool_pump.maxpat",
 				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "u755002285.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}

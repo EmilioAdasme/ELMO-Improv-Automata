@@ -10,10 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1740.0, 77.0, 1340.0, 921.0 ],
+		"rect" : [ 1740.0, 77.0, 1852.0, 921.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 202.0, 1215.0, 58.222215592861176, 22.0 ],
+					"text" : "limi~ 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "dummieIn",
 					"id" : "obj-38",
@@ -252,7 +264,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.0, 1213.333293557167053, 30.0, 30.0 ]
+					"patching_rect" : [ 241.222215592861176, 1250.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -485,7 +497,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.222215592861176, 1213.333293557167053, 30.0, 30.0 ]
+					"patching_rect" : [ 202.222215592861176, 1250.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -773,7 +785,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 500.0, 262.0, 96.5, 50.0 ],
 					"restore" : 					{
-						"live.gain~" : [ 0.0 ],
 						"live.gain~[1]" : [ -70.0 ],
 						"number" : [ 0.0 ],
 						"number[10]" : [ 0.0 ],
@@ -942,7 +953,6 @@
 						"toggle" : 0
 					}
 ,
-					"autorestore" : "Dispo_6_PattrStorage.json",
 					"id" : "obj-101",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1260,33 +1270,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 138.0, 705.0, 50.0, 22.0 ],
 					"varname" : "number"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 202.222215592861176, 968.148116409778595, 54.0, 80.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~[8]",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~"
 				}
 
 			}
@@ -1698,20 +1681,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1891,7 +1860,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-45", 1 ],
 					"order" : 0,
 					"source" : [ "obj-34", 1 ]
 				}
@@ -1899,7 +1868,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
@@ -1967,6 +1936,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-45", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -2084,7 +2067,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 1 ],
+					"destination" : [ "obj-34", 1 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
 				}
@@ -2092,7 +2075,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-34", 0 ],
 					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
@@ -2268,7 +2251,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-34" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -2283,13 +2265,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Dispo_6_PattrStorage.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Tool_SimpleConvo.maxpat",
 				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",

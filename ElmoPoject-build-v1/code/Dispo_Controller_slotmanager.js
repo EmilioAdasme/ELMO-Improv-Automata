@@ -9,8 +9,8 @@ outlets = 0;
 //   Inlets   0 <- ctrlA   (slot idx = outlet idx de ctrlA)
 //            1 <- ctrlB
 //            2 <- ctrlC
-//   Outlets  0 -> limi inlet 0 (audio L)
-//            1 -> limi inlet 1 (audio R)
+//   Outlets  0 -> masterVol inlet 0 (audio L)
+//            1 -> masterVol inlet 1 (audio R)
 //            2 -> outA  (inlet idx = slot)
 //            3 -> outB
 //            4 -> outC
@@ -24,7 +24,7 @@ for (var i = 0; i < NUMSLOTS; i++) {
 
 var CTRL_NAMES = ["ctrlA", "ctrlB", "ctrlC"];  // inlets 0..2
 var OUT_NAMES  = ["outA", "outB", "outC"];     // outlets 2..4
-var LIMITER_NAME = "limi";                     // Scripting Name del limitador
+var AUDIO_DEST_NAME = "masterVol";             // Scripting Name del live.gain~ maestro (antes del limi)
 
 var NUM_INLETS = 3;
 var NUM_OUTLETS = 5;
@@ -91,12 +91,6 @@ function deactivate(deviceName) {
         disconnectDevice(patcher, dest, idx);
     }
 
-    // avisar a los 3 colectores que este slot quedó libre
-    for (var q = 0; q < OUT_NAMES.length; q++) {
-        var t = patcher.getnamed(OUT_NAMES[q]);
-        if (t) t.message("clear", idx);
-    }
-
     // liberar el slot igual, aunque no se haya encontrado el objeto
     slots[idx] = null;
     post("slotmanager: " + deviceName + " liberó slot " + (idx + 1) + "\n");
@@ -118,14 +112,19 @@ function connectDevice(patcher, dest, idx) {
         }
     }
 
-    // audio: outlets 0,1 -> limi 0,1
-    var limi = patcher.getnamed(LIMITER_NAME);
-    if (limi) {
-        for (k = 0; k < AUDIO_OUTLETS; k++) {
-            patcher.connect(dest, k, limi, k);
+    // audio: outlets 0,1 -> masterVol 0,1
+    var master = patcher.getnamed(AUDIO_DEST_NAME);
+    if (master) {
+        var mIn = master.getboxattr("numinlets");
+        if (mIn < AUDIO_OUTLETS) {
+            post("slotmanager: '" + AUDIO_DEST_NAME + "' tiene " + mIn +
+                 " entrada(s); ponle channels " + AUDIO_OUTLETS + " para recibir L y R\n");
+        }
+        for (k = 0; k < AUDIO_OUTLETS && k < mIn; k++) {
+            patcher.connect(dest, k, master, k);
         }
     } else {
-        post("slotmanager: no se encontró limitador '" + LIMITER_NAME + "'\n");
+        post("slotmanager: no se encontró '" + AUDIO_DEST_NAME + "'\n");
     }
 
     // datos: outlets 2..4 -> outA/B/C (inlet = slot)
@@ -147,10 +146,10 @@ function disconnectDevice(patcher, dest, idx) {
         if (src) patcher.disconnect(src, idx, dest, k);
     }
 
-    var limi = patcher.getnamed(LIMITER_NAME);
-    if (limi) {
+    var master = patcher.getnamed(AUDIO_DEST_NAME);
+    if (master) {
         for (k = 0; k < AUDIO_OUTLETS; k++) {
-            patcher.disconnect(dest, k, limi, k);
+            patcher.disconnect(dest, k, master, k);
         }
     }
 
