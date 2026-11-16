@@ -4,16 +4,28 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 125.0, 1340.0, 921.0 ],
+		"rect" : [ 1741.0, 85.0, 1210.0, 912.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-116",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 614.0, 1822.0, 48.0, 22.0 ],
+					"text" : "limi~ 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "dummieIn",
 					"id" : "obj-109",
@@ -63,9 +75,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 826.75, 2002.0, 69.0, 35.0 ],
+					"patching_rect" : [ 826.75, 2002.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 31.03846263885498, 69.0, 35.0 ],
+					"presentation_rect" : [ 72.0, 31.03846263885498, 69.0, 36.0 ],
 					"varname" : "number[21]"
 				}
 
@@ -82,9 +94,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 968.831159591674805, 1999.961038589477539, 69.0, 35.0 ],
+					"patching_rect" : [ 968.831159591674805, 1999.961038589477539, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 109.730762720108032, 69.0, 35.0 ],
+					"presentation_rect" : [ 72.0, 109.730762720108032, 69.0, 36.0 ],
 					"varname" : "number[35]"
 				}
 
@@ -402,7 +414,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 613.75, 1838.0, 48.0, 136.0 ],
+					"patching_rect" : [ 613.75, 1850.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -1472,7 +1484,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 692.75, 1795.0, 39.0, 22.0 ],
+					"patching_rect" : [ 692.75, 1786.154016494750977, 39.0, 22.0 ],
 					"text" : "tanh~"
 				}
 
@@ -1484,7 +1496,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 613.75, 1795.0, 39.0, 22.0 ],
+					"patching_rect" : [ 613.75, 1786.154016494750977, 39.0, 22.0 ],
 					"text" : "tanh~"
 				}
 
@@ -2357,7 +2369,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2824,6 +2836,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-115", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"source" : [ "obj-116", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-116", 0 ]
 				}
 
 			}
@@ -3949,14 +3975,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-116", 0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
+					"destination" : [ "obj-116", 1 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -4330,41 +4356,41 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/patchers",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Freeverb.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freeverb.gendsp",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/gen",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Examples/gen",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/gen",
+				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freeverb_allpass.gendsp",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/gen",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Examples/gen",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/gen",
+				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freeverb_comb.gendsp",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/gen",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Examples/gen",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/gen",
+				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/gen",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "u474001144.json",
-				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/data",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1

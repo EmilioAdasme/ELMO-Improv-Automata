@@ -4,16 +4,28 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 141.0, 890.0, 905.0 ],
+		"rect" : [ 1741.0, 85.0, 1210.0, 912.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 345.0, 449.042168140411377, 34.0, 22.0 ],
+					"text" : "limi~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -100,9 +112,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 806.097580194473267, 649.0, 69.0, 35.0 ],
+					"patching_rect" : [ 806.097580194473267, 649.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.209152102470398, 126.1437948346138, 69.0, 35.0 ],
+					"presentation_rect" : [ 56.209152102470398, 126.1437948346138, 69.0, 36.0 ],
 					"varname" : "number[23]"
 				}
 
@@ -119,9 +131,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 487.5, 645.0, 69.0, 35.0 ],
+					"patching_rect" : [ 487.5, 645.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.209152102470398, 14.222222924232483, 69.0, 35.0 ],
+					"presentation_rect" : [ 56.209152102470398, 14.222222924232483, 69.0, 36.0 ],
 					"varname" : "number[21]"
 				}
 
@@ -138,9 +150,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 643.0, 649.0, 69.0, 35.0 ],
+					"patching_rect" : [ 643.0, 649.0, 69.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.209152102470398, 72.0, 69.0, 35.0 ],
+					"presentation_rect" : [ 56.209152102470398, 72.0, 69.0, 36.0 ],
 					"varname" : "number[35]"
 				}
 
@@ -1180,6 +1192,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 0 ]
@@ -1334,7 +1353,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
@@ -1606,7 +1625,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/patchers",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
