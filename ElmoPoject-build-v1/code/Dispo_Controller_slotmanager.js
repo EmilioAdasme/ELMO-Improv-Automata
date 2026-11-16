@@ -91,11 +91,6 @@ function deactivate(deviceName) {
         disconnectDevice(patcher, dest, idx);
     }
 
-    // avisar a los 3 colectores que este slot quedó libre
-    for (var q = 0; q < OUT_NAMES.length; q++) {
-        var t = patcher.getnamed(OUT_NAMES[q]);
-        if (t) t.message("clear", idx);
-    }
 
     // liberar el slot igual, aunque no se haya encontrado el objeto
     slots[idx] = null;
