@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1740.0, 77.0, 1340.0, 921.0 ],
+		"rect" : [ 134.0, 125.0, 1340.0, 921.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -98,9 +98,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 307.0, 906.097582578659058, 69.0, 36.0 ],
+					"patching_rect" : [ 307.0, 906.097582578659058, 69.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.925925731658936, 28.148148864507675, 69.0, 36.0 ],
+					"presentation_rect" : [ 69.925925731658936, 28.148148864507675, 69.0, 35.0 ],
 					"varname" : "number[21]"
 				}
 
@@ -117,9 +117,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 515.0, 908.609776973724365, 69.0, 36.0 ],
+					"patching_rect" : [ 515.0, 908.609776973724365, 69.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.925925731658936, 105.999997049570084, 69.0, 36.0 ],
+					"presentation_rect" : [ 69.925925731658936, 105.999997049570084, 69.0, 35.0 ],
 					"varname" : "number[35]"
 				}
 
@@ -242,7 +242,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "float", "" ],
 					"patching_rect" : [ 573.170745372772217, 673.170747756958008, 67.0, 22.0 ],
 					"text" : "Tool_pump"
 				}
@@ -668,6 +668,7 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
+						"live.gain~" : 0,
 						"number[12]" : 0,
 						"toggle" : 0
 					}
@@ -680,7 +681,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 622.0, 394.0, 153.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 2417, 126, 2817, 626 ],
+						"client_rect" : [ 100, 164, 500, 664 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 100, 134, 481, 548 ]
@@ -700,28 +701,28 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 622.0, 122.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -5.121192433307058 ],
-						"number" : [ 9.074000000000002 ],
+						"live.gain~" : [ -54.503226275928533 ],
+						"number" : [ 9.6 ],
 						"number[10]" : [ 0.85 ],
-						"number[11]" : [ 42.759999999999991 ],
+						"number[11]" : [ 44.455188679245282 ],
 						"number[12]" : [ 3.84 ],
-						"number[13]" : [ 1.557063317876664 ],
-						"number[1]" : [ 17.431999999999999 ],
-						"number[21]" : [ 47.350382019516431 ],
-						"number[2]" : [ 17.695999999999998 ],
-						"number[35]" : [ 122.399999999999991 ],
-						"number[3]" : [ 0.654280001144409 ],
-						"number[4]" : [ 1.516800020027161 ],
-						"number[5]" : [ 17.879999999999999 ],
-						"number[6]" : [ 132.048000030517557 ],
+						"number[13]" : [ 1.778301886792453 ],
+						"number[1]" : [ 0.85 ],
+						"number[21]" : [ 66.155660377358473 ],
+						"number[2]" : [ 16.537735849056602 ],
+						"number[35]" : [ 0.0 ],
+						"number[3]" : [ 0.430000007152557 ],
+						"number[4]" : [ 1.600000023841858 ],
+						"number[5]" : [ 19.0 ],
+						"number[6]" : [ 6.300000190734863 ],
 						"number[7]" : [ 1.11 ],
 						"number[8]" : [ 18.0 ],
-						"number[9]" : [ 33.399999999999991 ],
-						"slider" : [ 1.557063317876664 ],
-						"slider[1]" : [ 48 ],
-						"slider[2]" : [ 795 ],
+						"number[9]" : [ 4.0 ],
+						"slider" : [ 1.778301886792453 ],
+						"slider[1]" : [ 0 ],
+						"slider[2]" : [ 1 ],
 						"toggle" : [ 0 ],
-						"toggle[1]" : [ 0 ]
+						"toggle[1]" : [ 1 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -1994,14 +1995,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Dispo_5_PattrStorage.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
