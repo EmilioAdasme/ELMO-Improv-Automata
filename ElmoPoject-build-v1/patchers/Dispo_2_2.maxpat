@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1741.0, 85.0, 1210.0, 912.0 ],
+		"rect" : [ 34.0, 77.0, 1127.0, 802.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -173,30 +173,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-168",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 678.0, 101.0, 22.0 ],
-					"text" : "r rangeInOutHigh"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-169",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 707.0, 98.0, 22.0 ],
-					"text" : "r rangeInOutLow"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-170",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -214,8 +190,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 860.0, 117.0, 22.0 ],
-					"text" : "scale 0. 100. 0. 255."
+					"patching_rect" : [ 172.0, 860.0, 97.0, 22.0 ],
+					"text" : "scale 0. 99. 0. 1."
 				}
 
 			}
@@ -269,62 +245,14 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 94.0, 775.0, 117.0, 22.0 ],
-					"text" : "scale 0. 255. 0. 100."
+					"patching_rect" : [ 94.0, 775.0, 97.0, 22.0 ],
+					"text" : "scale 0. 1. 0. 99."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 917.0, 17.0, 101.0, 22.0 ],
-					"text" : "r rangeInOutHigh"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 17.0, 98.0, 22.0 ],
-					"text" : "r rangeInOutLow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 627.200000000000045, 984.0, 101.0, 22.0 ],
-					"text" : "r rangeInOutHigh"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.399999999999977, 1011.0, 98.0, 22.0 ],
-					"text" : "r rangeInOutLow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "ampOut (0. 255.)",
+					"comment" : "pumpOut (0. 1.)",
 					"id" : "obj-109",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -360,7 +288,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "pump (0. 255.)",
+					"comment" : "pump (0. 1.)",
 					"id" : "obj-53",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -373,7 +301,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "presetSelOut (0. 255.)",
+					"comment" : "presetSelOut (0. 1.)",
 					"id" : "obj-51",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -390,14 +318,14 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1059.5, 72.0, 103.0, 22.0 ],
-					"text" : "scale 0. 255. 1. 5."
+					"patching_rect" : [ 1059.5, 72.0, 90.0, 22.0 ],
+					"text" : "scale 0. 1. 1. 5."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "presetSel (0. 255.)",
+					"comment" : "presetSel (0. 1.)",
 					"id" : "obj-49",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -415,8 +343,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 1074.0, 103.0, 22.0 ],
-					"text" : "scale 1. 5. 0. 255."
+					"patching_rect" : [ 560.0, 1074.0, 90.0, 22.0 ],
+					"text" : "scale 1. 5. 0. 1."
 				}
 
 			}
@@ -1994,7 +1922,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "u163000875.json",
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2495,38 +2422,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-171", 4 ],
-					"order" : 0,
-					"source" : [ "obj-168", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-173", 2 ],
-					"order" : 1,
-					"source" : [ "obj-168", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-171", 3 ],
-					"order" : 0,
-					"source" : [ "obj-169", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-173", 1 ],
-					"order" : 1,
-					"source" : [ "obj-169", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 445.5, 873.0, 424.5, 873.0 ],
 					"source" : [ "obj-17", 0 ]
@@ -2670,13 +2565,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 4 ],
-					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -2829,13 +2717,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 3 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"midpoints" : [ 433.5, 282.0, 433.5, 282.0 ],
 					"source" : [ "obj-42", 0 ]
@@ -2860,20 +2741,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 2 ],
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 1 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"midpoints" : [ 344.5, 282.0, 344.5, 282.0 ],
 					"source" : [ "obj-46", 0 ]
@@ -2883,7 +2750,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 1069.0, 54.0, 1069.0, 54.0, 1069.0, 93.0, 1069.0, 93.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -3432,13 +3298,6 @@
 				"name" : "pan2.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
 				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "u163000875.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
