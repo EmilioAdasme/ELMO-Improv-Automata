@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1299.0, 92.0, 556.0, 954.0 ],
+		"rect" : [ 1202.0, 92.0, 556.0, 954.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -784,7 +784,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 693.0, 633.0, 102.0, 35.0 ],
-					"text" : "activate SABBINIX"
+					"text" : "activate RSWLIWHW"
 				}
 
 			}
