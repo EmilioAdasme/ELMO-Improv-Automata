@@ -10,9 +10,11 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1202.0, 92.0, 556.0, 954.0 ],
+		"rect" : [ 1162.0, 132.0, 556.0, 954.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
+		"toolbarvisible" : 0,
+		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-59",
@@ -784,7 +786,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 693.0, 633.0, 102.0, 35.0 ],
-					"text" : "activate RSWLIWHW"
+					"text" : "activate DWFUVGJQ"
 				}
 
 			}
@@ -5091,7 +5093,8 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"bgcolor" : [ 0.066666666666667, 0.094117647058824, 0.113725490196078, 0.85 ]
 	}
 
 }

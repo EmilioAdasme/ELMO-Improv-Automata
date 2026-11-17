@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3877731884,
+	"modificationdate" : 3877762258,
 	"viewrect" : [ 208.0, 140.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -145,6 +145,16 @@
 		}
 ,
 		"code" : 		{
+			"Dispo_Controller_slotmanager.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"pdm.gatedetect.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"freeverb.gendsp" : 			{
 				"kind" : "gendsp"
 			}
@@ -156,16 +166,6 @@
 			"freeverb_comb.gendsp" : 			{
 				"kind" : "gendsp"
 			}
-,
-			"Dispo_Controller_slotmanager.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"pdm.gatedetect.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
 
 		}
 ,
@@ -176,16 +176,6 @@
 			}
 ,
 			"Dispo_1_2_PattrStorage.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"u474001144.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dispo_5_PattrStorage.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -215,6 +205,16 @@
 				"local" : 1
 			}
 ,
+			"u474001144.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dispo_5_PattrStorage.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"u392001332.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -235,10 +235,6 @@
 			"ml.som.mxo" : 			{
 				"kind" : "object"
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 
