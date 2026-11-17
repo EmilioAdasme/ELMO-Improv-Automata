@@ -4,16 +4,41 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 141.0, 1611.0, 794.0 ],
+		"rect" : [ 1741.0, 85.0, 769.0, 912.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-31",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Dispo_1_2.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 5,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "", "" ],
+					"patching_rect" : [ 200.0, 10.0, 336.0, 180.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 200.0, 10.0, 336.0, 180.0 ],
+					"varname" : "Dispo_1_2_slot",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
@@ -45,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1161.0, 156.0, 29.5, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -115,31 +140,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 750.0, 68.0, 47.0, 22.0 ],
 					"text" : "receive"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"hidden" : 1,
-					"id" : "obj-19",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Dispo_1_1.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 200.0, 10.0, 336.0, 180.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 10.0, 336.0, 180.0 ],
-					"varname" : "Dispo_1_1_slot",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -230,7 +230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1013.0, 84.0, 213.0, 22.0 ],
-					"text" : "Dispo_1_1_slot"
+					"text" : "Dispo_1_2_slot"
 				}
 
 			}
@@ -306,10 +306,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.0, 139.0, 234.0, 33.0 ],
+					"patching_rect" : [ 758.0, 139.0, 234.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 48.0, 136.0, 33.0 ],
-					"text" : "Dispo_1_1",
+					"presentation_rect" : [ 6.0, 48.0, 136.0, 34.0 ],
+					"text" : "Dispo_1_2",
 					"textjustification" : 1
 				}
 
@@ -317,7 +317,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
-					"fontsize" : 30.0,
+					"fontsize" : 24.0,
 					"format" : 6,
 					"htricolor" : [ 0.92156862745098, 0.709803921568627, 0.329411764705882, 0.0 ],
 					"id" : "obj-63",
@@ -326,9 +326,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 458.0, 382.0, 94.0, 42.0 ],
+					"patching_rect" : [ 458.0, 382.0, 79.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 143.0, 94.0, 42.0 ],
+					"presentation_rect" : [ 115.0, 150.0, 79.0, 36.0 ],
 					"tricolor" : [ 0.43921568627451, 0.43921568627451, 0.43921568627451, 0.0 ],
 					"varname" : "param_C"
 				}
@@ -337,7 +337,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
-					"fontsize" : 30.0,
+					"fontsize" : 24.0,
 					"format" : 6,
 					"htricolor" : [ 0.92156862745098, 0.709803921568627, 0.329411764705882, 0.0 ],
 					"id" : "obj-61",
@@ -346,9 +346,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 362.0, 382.0, 79.0, 42.0 ],
+					"patching_rect" : [ 362.0, 382.0, 70.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 143.0, 79.0, 42.0 ],
+					"presentation_rect" : [ 53.0, 150.0, 70.0, 36.0 ],
 					"tricolor" : [ 0.43921568627451, 0.43921568627451, 0.43921568627451, 0.0 ],
 					"varname" : "param_B"
 				}
@@ -357,7 +357,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
-					"fontsize" : 30.0,
+					"fontsize" : 24.0,
 					"format" : 6,
 					"htricolor" : [ 0.92156862745098, 0.709803921568627, 0.329411764705882, 0.0 ],
 					"id" : "obj-59",
@@ -366,9 +366,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 254.0, 382.0, 79.0, 42.0 ],
+					"patching_rect" : [ 254.0, 382.0, 70.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -5.0, 143.0, 79.0, 42.0 ],
+					"presentation_rect" : [ -4.0, 150.0, 70.0, 36.0 ],
 					"tricolor" : [ 0.43921568627451, 0.43921568627451, 0.43921568627451, 0.0 ],
 					"varname" : "param_A"
 				}
@@ -382,7 +382,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 919.0, 408.0, 462.0, 35.0 ],
+					"patching_rect" : [ 919.0, 408.0, 462.0, 36.0 ],
 					"text" : "script hide slot_panel_open, script show param_A, script show param_B, script show param_C"
 				}
 
@@ -481,7 +481,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 678.0, 468.0, 91.0, 22.0 ],
-					"text" : "Dispo_1_1_slot"
+					"text" : "Dispo_1_2_slot"
 				}
 
 			}
@@ -553,7 +553,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 601.0, 254.0, 817.0, 62.0 ],
+					"patching_rect" : [ 601.0, 254.0, 817.0, 64.0 ],
 					"text" : "script newobject bpatcher @name $1 @varname $2 @patching_position 200 10 @presentation 1 @presentation_position 200 10, script connect in_A 0 $2 0, script connect in_B 0 $2 1, script connect in_C 0 $2 2, script connect $2 0 gain 0, script connect $2 1 gain 1, script connect $2 2 out_A 0, script connect $2 3 out_B 0, script connect $2 4 out_C 0, script bringtofront $2, script connect gain 0 out_AUDIOL 0, script connect gain 1 out_AUDIOR 0, script connect $2 2 param_A 0, script connect $2 3 param_B 0, script connect $2 4 param_C 0, script hide $2, script hide slot_panel_open"
 				}
 
@@ -711,7 +711,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -776,69 +776,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
-					"source" : [ "obj-19", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
-					"source" : [ "obj-19", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 1 ],
-					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
-					"source" : [ "obj-19", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
+					"destination" : [ "obj-31", 1 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -950,8 +888,70 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 2 ],
+					"destination" : [ "obj-31", 2 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-31", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-31", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 1 ],
+					"source" : [ "obj-31", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-31", 4 ]
 				}
 
 			}
@@ -1154,7 +1154,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-19::obj-88" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-31::obj-88" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-68" : [ "live.gain~[1]", "Output", 0 ],
 			"obj-86" : [ "live.gain~[2]", "Output", 0 ],
 			"parameterbanks" : 			{
@@ -1166,35 +1166,42 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-19::obj-88" : 				{
-					"parameter_longname" : "live.gain~[4]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Dispo_1_1.maxpat",
-				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/patchers",
+				"name" : "Dispo_1_2.maxpat",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dispo_1_2_PattrStorage.json",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tool_caosEG.maxpat",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/patchers",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "u415000645.json",
-				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
+				"name" : "caos_EG.gendsp",
+				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
  ],

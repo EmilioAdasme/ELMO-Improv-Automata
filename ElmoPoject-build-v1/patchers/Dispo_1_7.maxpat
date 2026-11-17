@@ -10,10 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1740.0, 77.0, 1340.0, 921.0 ],
+		"rect" : [ 1741.0, 85.0, 1210.0, 912.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 216.0, 946.0, 34.0, 22.0 ],
+					"text" : "limi~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "dummieIn",
 					"id" : "obj-38",
@@ -212,7 +224,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "float", "" ],
 					"patching_rect" : [ -3.418803453445435, 998.290608406066895, 67.0, 22.0 ],
 					"text" : "Tool_pump"
 				}
@@ -252,7 +264,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.0, 1213.333293557167053, 30.0, 30.0 ]
+					"patching_rect" : [ 255.0, 1155.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -265,7 +277,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 202.222215592861176, 1061.0, 48.0, 136.0 ],
+					"patching_rect" : [ 216.0, 989.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -291,7 +303,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 123.0, 1147.407369792461395, 24.0, 24.0 ],
+					"patching_rect" : [ 136.5, 1118.0, 24.0, 24.0 ],
 					"varname" : "toggle[1]"
 				}
 
@@ -303,7 +315,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 123.0, 1183.703664898872375, 39.0, 22.0 ],
+					"patching_rect" : [ 136.5, 1155.0, 39.0, 22.0 ],
 					"text" : "gate~"
 				}
 
@@ -314,7 +326,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 1219.999960005283356, 35.0, 22.0 ],
+					"patching_rect" : [ 136.5, 1191.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -485,7 +497,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.222215592861176, 1213.333293557167053, 30.0, 30.0 ]
+					"patching_rect" : [ 216.0, 1155.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -773,7 +785,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 500.0, 262.0, 96.5, 50.0 ],
 					"restore" : 					{
-						"live.gain~" : [ 0.0 ],
 						"live.gain~[1]" : [ -70.0 ],
 						"number" : [ 0.0 ],
 						"number[10]" : [ 0.0 ],
@@ -1265,33 +1276,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 202.222215592861176, 968.148116409778595, 54.0, 80.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~[8]",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1699,13 +1683,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
-					"source" : [ "obj-18", 1 ]
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2084,16 +2070,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 1 ],
-					"order" : 0,
-					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -2268,7 +2245,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-34" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
