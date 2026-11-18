@@ -262,7 +262,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 590.5, 1747.5, 180.0, 22.0 ],
-					"text" : "0.417503 0.266829"
+					"text" : "0.608383 0.655362"
 				}
 
 			}
@@ -22658,7 +22658,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
+					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.08 ],
 					"hidden" : 1,
 					"id" : "obj-153",
 					"listresize" : 0,
@@ -22669,7 +22669,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1835.0, 1874.0, 257.0, 201.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 491.0, 515.0, 181.0, 65.0 ],
+					"presentation_rect" : [ 638.0, 414.0, 145.0, 199.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"size" : 12,
 					"slidercolor" : [ 0.066666666666667, 0.094117647058824, 0.113725490196078, 0.15 ],
@@ -22711,8 +22711,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3602.941107749938965, 424.999991893768311, 190.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 806.0, 618.0, 82.0, 24.0 ],
-					"text" : "Guardar",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 692.0, 639.0, 82.0, 42.0 ],
+					"text" : "Guardar perfil",
 					"varname" : "gua-text"
 				}
 
@@ -22727,9 +22728,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3411.764640808105469, 426.470580101013184, 197.0, 42.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 806.0, 533.0, 124.314801999999986, 42.0 ],
 					"text" : "Preparar perfil \nJSON",
 					"varname" : "pp-text"
 				}
@@ -22748,7 +22746,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1631.0, 2433.034614205360413, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 735.0, 596.0, 67.0, 67.0 ],
+					"presentation_rect" : [ 621.0, 626.0, 67.0, 67.0 ],
 					"varname" : "gua-button"
 				}
 
@@ -22765,7 +22763,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1597.0, 900.0, 108.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.0, 597.0, 207.0, 65.0 ],
+					"presentation_rect" : [ 618.0, 627.0, 207.0, 65.0 ],
 					"proportion" : 0.5,
 					"rounded" : 59,
 					"varname" : "gua-back"
@@ -22783,8 +22781,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1617.0, 855.0, 108.0, 40.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 732.0, 522.0, 207.0, 65.0 ],
 					"proportion" : 0.5,
 					"rounded" : 59,
 					"varname" : "pp-back"
@@ -22801,9 +22797,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3552.941108703613281, 557.352930545806885, 197.0, 42.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 805.0, 458.0, 125.0, 42.0 ],
 					"text" : "Obtener capas \nde MLPs",
 					"textcolor" : [ 0.870588235294118, 0.870588235294118, 0.870588235294118, 1.0 ],
 					"varname" : "oc-text"
@@ -22821,8 +22814,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1655.0, 812.0, 108.0, 40.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 732.0, 447.0, 207.0, 65.0 ],
 					"proportion" : 0.5,
 					"rounded" : 59,
 					"varname" : "oc-back"
@@ -23419,7 +23410,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3654.411695003509521, 1130.882331371307373, 62.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 666.0, 533.0, 62.0, 52.0 ],
+					"presentation_rect" : [ 896.0, 465.5, 62.0, 52.0 ],
 					"text" : "d",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
 					"textjustification" : 1
@@ -23963,7 +23954,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 697.0, 140.0, 854.0, 887.0 ],
+						"rect" : [ 857.0, 117.0, 854.0, 887.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
@@ -24106,14 +24097,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 61,
+									"linecount" : 60,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 199.0, 87.0, 187.0, 824.0 ],
+									"patching_rect" : [ 199.0, 87.0, 189.0, 811.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 40,
-									"presentation_rect" : [ 16.0, 42.0, 292.0, 543.0 ],
+									"presentation_rect" : [ 16.0, 42.0, 295.0, 543.0 ],
 									"text" : "El improvisador es un MaxProject. Es decir, está compuesto de muchos patches y archivos de código que trabajan en conjunto. Los 2 patches principales son \"Input_Transformer\" y \"Dispo_Controller\". Estos se abren de manera automática cuando se inicia el proyecto.\n\nEl patch Input_Transformer esta dividido en 2 paneles\n\nI) Panel de escucha y transformación\n\nAcá el improvisador escucha y recuerda sonidos que vienen del medio ambiente. El audio que ingresa es procesado por una serie de audio-descriptores que posibilitan la descripción numérica de los sonidos. Estos se representan en gráficos (también llamado mapa) que funciona como una interpretación en forma de datos de los sonidos entrantes.\n\nII) Panel de perfiles\n\nLos perfiles son la memoria a largo plazo del improvisador. El improvisador viene con perfiles curados y con una interfaz para crear perfiles propios en base al entrenamiento de una pequeña red neuronal. Cada vez que lo entrenamos podemos guardar ese entrenamiento en un archivo JSON para luego cargarlo nuevamente en su memoria en una siguiente sesión.\n\nEl patch Dispo_Controller es las manos y los instrumentos del improvisador. El patch permite elegir diferentes dispositivos sonoros que luego serán utilizados por el improvisador para manejar durante la improvisación. Cuando lo entrenamos, debemos proponerle acciones y sonidos utilizando las interfaces gráficas de cada dispositivo. Luego el improvisador los usará de forma automática una vez que haya terminado el proceso de entrenamiento."
 								}
 
@@ -24121,11 +24112,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 113,
+									"linecount" : 112,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 87.0, 191.0, 1535.0 ],
+									"patching_rect" : [ 37.0, 87.0, 195.0, 1521.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 46,
 									"presentation_rect" : [ 307.0, 197.0, 538.0, 637.0 ],
@@ -24402,7 +24393,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.842714667320251, 2830.337304711341858, 942.0, 35.0 ],
-					"text" : "0.367611 0.556839 0.97626 0. 0. 0. 0.010865 0.006918 0.014061 0. 0. 0. 0.808463 0.178534 0.997943 0.003581 0.001678 0.006109 0. 0. 0. 0. 0. 0. 0. 0.090427 0.096138 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"text" : "0.484642 1. 1. 0.050959 0.059042 0.034535 0.063485 0.046497 0.070977 0.02955 0.031075 0.035032 0.738505 1. 0.03905 0.04482 0.039361 0.05635 0.042344 0.031011 0.058159 0.042426 0.0406 0.025653 0.000311 0.001325 0.003172 0.000139 0.000192 0.000087 0.00011 0.000103 0.000098 0.000091 0.000155 0.00006"
 				}
 
 			}
@@ -24690,7 +24681,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
+					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.08 ],
 					"hidden" : 1,
 					"id" : "obj-242",
 					"listresize" : 0,
@@ -24701,7 +24692,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2102.0, 1873.0, 238.0, 202.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 491.0, 590.0, 181.0, 65.0 ],
+					"presentation_rect" : [ 785.0, 414.0, 145.0, 199.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"size" : 12,
 					"slidercolor" : [ 0.066666666666667, 0.094117647058824, 0.113725490196078, 0.15 ],
@@ -24845,7 +24836,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.0 ],
+					"bgcolor" : [ 0.109803921568627, 0.133333333333333, 0.16078431372549, 0.08 ],
 					"hidden" : 1,
 					"id" : "obj-187",
 					"listresize" : 0,
@@ -24856,7 +24847,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1570.0, 1874.0, 257.0, 201.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 491.0, 440.0, 181.0, 65.0 ],
+					"presentation_rect" : [ 491.0, 414.0, 145.0, 199.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"size" : 12,
 					"slidercolor" : [ 0.066666666666667, 0.094117647058824, 0.113725490196078, 0.15 ],
@@ -25364,7 +25355,7 @@
 					"patching_rect" : [ 2238.0, 2889.0, 514.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 414.0, 514.0, 63.0 ],
-					"text" : "AUCKLAND (Demo)",
+					"text" : "Nuevo_Perfil",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.18 ]
 				}
 

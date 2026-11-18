@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
+		"rect" : [ 1127.0, 92.0, 554.0, 802.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -22,10 +22,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 1836.5, 150.0, 34.0 ],
+					"patching_rect" : [ 443.0, 1836.5, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 401.0, 93.5, 64.0, 34.0 ],
+					"presentation_rect" : [ 401.0, 93.5, 64.0, 33.0 ],
 					"text" : "Monitoreo\nDirecto",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -627,10 +627,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1109.5, 534.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1109.5, 534.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 158.0, 41.5, 76.0, 48.0 ],
+					"presentation_rect" : [ 158.0, 41.5, 76.0, 47.0 ],
 					"text" : "Borrar\ntodos los Slots",
 					"textcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 1.0 ],
 					"textjustification" : 1
@@ -761,8 +761,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 693.0, 633.0, 102.0, 36.0 ],
-					"text" : "activate SJQTOVIW"
+					"patching_rect" : [ 693.0, 633.0, 102.0, 35.0 ],
+					"text" : "activate SXQHCBSP"
 				}
 
 			}
@@ -773,7 +773,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 1475.0, 150.0, 62.0 ],
+					"patching_rect" : [ 127.0, 1475.0, 150.0, 60.0 ],
 					"text" : "mc.unpack para conectar una sola salida de audio aunque el dispo tenga 2 saidas"
 				}
 
@@ -877,10 +877,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 983.0, 248.0, 150.0, 48.0 ],
+					"patching_rect" : [ 983.0, 248.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 80.0, 41.5, 76.0, 48.0 ],
+					"presentation_rect" : [ 80.0, 41.5, 76.0, 47.0 ],
 					"text" : "Borrar\núltimo\nSlot",
 					"textcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 1.0 ],
 					"textjustification" : 1
@@ -1001,9 +1001,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1017.0, 484.0, 70.0, 36.0 ],
+					"patching_rect" : [ 1017.0, 484.0, 70.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 264.0, 82.0, 70.0, 36.0 ]
+					"presentation_rect" : [ 264.0, 82.0, 70.0, 35.0 ]
 				}
 
 			}
@@ -1176,7 +1176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 846.0, 602.0, 165.0, 133.0 ],
+					"patching_rect" : [ 846.0, 602.0, 165.0, 129.0 ],
 					"text" : "script newobject bpatcher @name Tool_disposlot @varname $1 @patching_position 0 $2 @presentation 1 @presentation_position 0 $2 @presentation_rect 0. $2 550. 202. @clickthrough 1 @args $1"
 				}
 
@@ -1265,9 +1265,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1761.0, 1979.0, 62.0, 53.0 ],
+					"patching_rect" : [ 1761.0, 1979.0, 62.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 70.0, 62.0, 53.0 ],
+					"presentation_rect" : [ 296.0, 70.0, 62.0, 52.0 ],
 					"text" : "d",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
 					"textjustification" : 1
@@ -1286,7 +1286,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1796,7 +1796,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2097,7 +2097,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2398,7 +2398,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2696,9 +2696,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3440.0, 31.0, 175.0, 39.0 ],
+					"patching_rect" : [ 3440.0, 31.0, 175.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 9.0, 211.0, 23.0 ],
+					"presentation_rect" : [ 7.0, 9.0, 211.0, 22.0 ],
 					"text" : "MODULO DE DISPOSITIVOS",
 					"textcolor" : [ 0.301960784313725, 0.301960784313725, 0.301960784313725, 1.0 ]
 				}
@@ -2758,7 +2758,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3048,7 +3048,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3365,81 +3365,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 550.0, 130.0 ],
 					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "JQNVHWBF" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-39",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Tool_disposlot.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 0.0, 130.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 130.0, 550.0, 202.0 ],
-					"varname" : "JQNVHWBF",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "TDMTGPSP" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-41",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Tool_disposlot.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 0.0, 330.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 330.0, 550.0, 202.0 ],
-					"varname" : "TDMTGPSP",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "SJQTOVIW" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 1,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-43",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "Tool_disposlot.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 0.0, 530.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 530.0, 550.0, 202.0 ],
-					"varname" : "SJQTOVIW",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -3801,27 +3726,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -4049,27 +3953,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 1 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 1 ],
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 1 ],
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-144", 1 ],
 					"source" : [ "obj-307", 0 ]
 				}
@@ -4122,41 +4005,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-406", 0 ],
 					"source" : [ "obj-386", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-125", 0 ],
-					"source" : [ "obj-39", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-152", 0 ],
-					"source" : [ "obj-39", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 1 ],
-					"source" : [ "obj-39", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 0 ],
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-39", 2 ]
 				}
 
 			}
@@ -4241,76 +4089,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-125", 1 ],
-					"source" : [ "obj-41", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-152", 1 ],
-					"source" : [ "obj-41", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 1 ],
-					"source" : [ "obj-41", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 1 ],
-					"source" : [ "obj-41", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-125", 2 ],
-					"source" : [ "obj-43", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-152", 2 ],
-					"source" : [ "obj-43", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 1 ],
-					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 0 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 2 ],
-					"source" : [ "obj-43", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"order" : 1,
 					"source" : [ "obj-44", 0 ]
@@ -4383,27 +4161,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 2 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 2 ],
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 2 ],
-					"source" : [ "obj-5", 2 ]
 				}
 
 			}
@@ -4619,27 +4376,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-39::obj-29::obj-138" : [ "live.gain~[18]", "live.gain~", 0 ],
-			"obj-39::obj-29::obj-16" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-39::obj-29::obj-17" : [ "live.gain~[17]", "live.gain~", 0 ],
-			"obj-39::obj-29::obj-95::obj-101" : [ "Dry[1]", "Dry", 0 ],
-			"obj-39::obj-29::obj-95::obj-26" : [ "bypass[1]", "bypass", 0 ],
-			"obj-39::obj-29::obj-95::obj-31" : [ "Feedback1[1]", "FB1", 0 ],
-			"obj-39::obj-29::obj-95::obj-32" : [ "Feedback2[1]", "FB2", 0 ],
-			"obj-39::obj-29::obj-95::obj-33" : [ "Damp[2]", "Damp", 0 ],
-			"obj-39::obj-29::obj-99::obj-101" : [ "Dry", "Dry", 0 ],
-			"obj-39::obj-29::obj-99::obj-26" : [ "bypass[3]", "bypass", 0 ],
-			"obj-39::obj-29::obj-99::obj-31" : [ "Feedback1", "FB1", 0 ],
-			"obj-39::obj-29::obj-99::obj-32" : [ "Feedback2", "FB2", 0 ],
-			"obj-39::obj-29::obj-99::obj-33" : [ "Damp[1]", "Damp", 0 ],
-			"obj-39::obj-68" : [ "live.gain~[1]", "Output", 0 ],
-			"obj-39::obj-86" : [ "live.gain~[2]", "Output", 0 ],
-			"obj-41::obj-21::obj-88" : [ "live.gain~[16]", "live.gain~", 0 ],
-			"obj-41::obj-68" : [ "live.gain~[13]", "Output", 0 ],
-			"obj-41::obj-86" : [ "live.gain~[12]", "Output", 0 ],
-			"obj-43::obj-21::obj-88" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-43::obj-68" : [ "live.gain~[9]", "Output", 0 ],
-			"obj-43::obj-86" : [ "live.gain~[15]", "Output", 0 ],
 			"obj-55" : [ "live.gain~[5]", "live.gain~[3]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -4650,152 +4386,14 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-39::obj-29::obj-138" : 				{
-					"parameter_longname" : "live.gain~[18]"
-				}
-,
-				"obj-39::obj-29::obj-17" : 				{
-					"parameter_longname" : "live.gain~[17]"
-				}
-,
-				"obj-39::obj-29::obj-95::obj-101" : 				{
-					"parameter_longname" : "Dry[1]"
-				}
-,
-				"obj-39::obj-29::obj-95::obj-26" : 				{
-					"parameter_longname" : "bypass[1]"
-				}
-,
-				"obj-39::obj-29::obj-95::obj-31" : 				{
-					"parameter_longname" : "Feedback1[1]"
-				}
-,
-				"obj-39::obj-29::obj-95::obj-32" : 				{
-					"parameter_longname" : "Feedback2[1]"
-				}
-,
-				"obj-39::obj-29::obj-95::obj-33" : 				{
-					"parameter_longname" : "Damp[2]"
-				}
-,
-				"obj-41::obj-21::obj-88" : 				{
-					"parameter_longname" : "live.gain~[16]"
-				}
-,
-				"obj-41::obj-68" : 				{
-					"parameter_longname" : "live.gain~[13]"
-				}
-,
-				"obj-41::obj-86" : 				{
-					"parameter_longname" : "live.gain~[12]"
-				}
-,
-				"obj-43::obj-21::obj-88" : 				{
-					"parameter_longname" : "live.gain~[10]"
-				}
-,
-				"obj-43::obj-68" : 				{
-					"parameter_longname" : "live.gain~[9]"
-				}
-,
-				"obj-43::obj-86" : 				{
-					"parameter_longname" : "live.gain~[15]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Dispo_1_2.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dispo_1_2_PattrStorage.json",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dispo_1_3.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dispo_1_4.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Dispo_Controller_slotmanager.js",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/code",
+				"bootpath" : "~/Documents/GitHub/ELMO Project/ElmoPoject-build-v1/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tool_caosEG.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tool_disposlot.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tool_pump.maxpat",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Freeverb.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "caos_EG.gendsp",
-				"bootpath" : "~/Documentos/GitHub/Improv-Automata/ElmoPoject-build-v1/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb.gendsp",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/gen",
-				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/gen",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb_allpass.gendsp",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/gen",
-				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/gen",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb_comb.gendsp",
-				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 9/examples/gen",
-				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 9/examples/gen",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
  ],
