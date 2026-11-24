@@ -10,12 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1127.0, 92.0, 554.0, 802.0 ],
+		"rect" : [ 1274.0, 92.0, 556.0, 954.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"toolbarvisible" : 0,
-		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1125.0, 300.0, 35.0, 22.0 ],
+					"text" : "0 1 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-59",
 					"linecount" : 2,
@@ -77,7 +87,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 406.0, 91.0, 150.0, 20.0 ],
+					"patching_rect" : [ 3307.0, 21.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 71.5, 48.0, 20.0 ],
 					"text" : "Grabar",
@@ -238,7 +248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 13.0, 157.0, 20.0 ],
+					"patching_rect" : [ 3340.0, 124.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 348.0, 10.0, 129.0, 20.0 ],
 					"text" : "ENTRENAMIENTO",
@@ -623,11 +633,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1109.5, 534.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1168.0, 531.0, 81.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 158.0, 41.5, 76.0, 47.0 ],
@@ -644,7 +654,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "clear", "dump", "int" ],
-					"patching_rect" : [ 1132.0, 590.0, 105.0, 22.0 ],
+					"patching_rect" : [ 1144.0, 590.0, 105.0, 22.0 ],
 					"text" : "t 1 0 clear dump 1"
 				}
 
@@ -660,7 +670,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.203921568627451, 0.215686274509804, 0.227450980392157, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1132.0, 557.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1144.0, 554.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 177.5, 85.0, 37.0, 37.0 ]
 				}
@@ -677,7 +687,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 283.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1497.0, 511.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 464.0, 8.0, 24.0, 24.0 ]
 				}
@@ -690,7 +700,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.0, 204.0, 68.0, 22.0 ],
+					"patching_rect" : [ 1497.0, 432.0, 68.0, 22.0 ],
 					"text" : "r is-training"
 				}
 
@@ -762,19 +772,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 693.0, 633.0, 102.0, 35.0 ],
-					"text" : "activate SXQHCBSP"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-488",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 1475.0, 150.0, 60.0 ],
-					"text" : "mc.unpack para conectar una sola salida de audio aunque el dispo tenga 2 saidas"
+					"text" : "activate BEXKUSGI"
 				}
 
 			}
@@ -4084,6 +4082,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-400", 0 ],
 					"source" : [ "obj-406", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}

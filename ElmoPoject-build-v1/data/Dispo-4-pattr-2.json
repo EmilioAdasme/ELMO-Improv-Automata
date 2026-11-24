@@ -1,0 +1,87 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u834005138",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"clear-tapout" : [ 722 ],
+					"velvetnoise" : [ 0.0 ],
+					"noise-mod" : [ 0.0 ],
+					"click-extension" : [ 1256 ],
+					"extension-tapout" : [ 114 ],
+					"velvet-level" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"clear-tapout" : [ 114 ],
+					"velvetnoise" : [ 0.0 ],
+					"noise-mod" : [ 0.0 ],
+					"click-extension" : [ 5486 ],
+					"extension-tapout" : [ 56 ],
+					"velvet-level" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"clear-tapout" : [ 344 ],
+					"velvetnoise" : [ 0.0 ],
+					"noise-mod" : [ 0.0 ],
+					"click-extension" : [ 735 ],
+					"extension-tapout" : [ 32 ],
+					"velvet-level" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"clear-tapout" : [ 160 ],
+					"velvetnoise" : [ 594.0 ],
+					"noise-mod" : [ 58.0 ],
+					"click-extension" : [ 3137 ],
+					"extension-tapout" : [ 170 ],
+					"velvet-level" : [ 0.1 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"clear-tapout" : [ 174 ],
+					"velvetnoise" : [ 119.0 ],
+					"noise-mod" : [ 85.0 ],
+					"click-extension" : [ 3137 ],
+					"extension-tapout" : [ 50 ],
+					"velvet-level" : [ 0.1 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"clear-tapout" : [ 174 ],
+					"velvetnoise" : [ 29.0 ],
+					"noise-mod" : [ 15.0 ],
+					"click-extension" : [ 3137 ],
+					"extension-tapout" : [ 50 ],
+					"velvet-level" : [ 0.1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -2,7 +2,7 @@
 	"name" : "ElmoPoject-build-v1",
 	"version" : 1,
 	"creationdate" : 3870547275,
-	"modificationdate" : 3877762258,
+	"modificationdate" : 3878252414,
 	"viewrect" : [ 208.0, 140.0, 501.0, 797.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -141,20 +141,20 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+,
+			"Dispo_4_1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Dispo_4_2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"code" : 		{
-			"Dispo_Controller_slotmanager.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"pdm.gatedetect.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"freeverb.gendsp" : 			{
 				"kind" : "gendsp"
 			}
@@ -165,6 +165,16 @@
 ,
 			"freeverb_comb.gendsp" : 			{
 				"kind" : "gendsp"
+			}
+,
+			"Dispo_Controller_slotmanager.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"pdm.gatedetect.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
 			}
 
 		}
@@ -178,6 +188,26 @@
 			"Dispo_1_2_PattrStorage.json" : 			{
 				"kind" : "json",
 				"local" : 1
+			}
+,
+			"Dispo-x-pattr-2.json" : 			{
+				"kind" : "json",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Composición/Trabajos y Borradores/CommonPatchers",
+					"projectrelativepath" : "../../../Composición/Trabajos y Borradores/CommonPatchers"
+				}
+
+			}
+,
+			"Dispo-x-pattr.json" : 			{
+				"kind" : "json",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Composición/Trabajos y Borradores/CommonPatchers",
+					"projectrelativepath" : "../../../Composición/Trabajos y Borradores/CommonPatchers"
+				}
+
 			}
 ,
 			"Dispo_6_PattrStorage.json" : 			{
